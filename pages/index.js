@@ -172,16 +172,23 @@ const MacBookPro148 = () => {
           alt=""
           src="/fidelity-logo-2@2x.png"
         />
+       
+        <a href = "https://github.com/markghat/VRMeditationSpace"
+        target="_blank">
         <img
           className="absolute top-[1744px] left-[692px] rounded-11xl w-[861px] h-[419px] object-cover"
           alt=""
           src="/screenshot-20230623-at-712-2@2x.png"
         />
+        </a>
+        <a href = "https://github.com/markghat/PLPredictor"
+        target="_blank">
         <img
           className="absolute top-[2416px] left-[102px] rounded-11xl w-[701px] h-[522.36px] object-cover"
           alt=""
           src="/screenshot-20230623-at-744-1@2x.png"
         />
+        </a>
         <div className="absolute top-[3420px] left-[227px] text-93xl font-semibold font-outfit text-white inline-block w-[1059px] h-[149px]">
           Let’s Connect
         </div>
