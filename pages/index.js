@@ -74,11 +74,14 @@ const MacBookPro148 = () => {
             </div>
           </div>
         </div>
+        <a href="http://linkedin.com/in/markghat"
+        target="_blank">
         <img
           className="absolute top-[558px] left-[0px] w-[197.15px] h-[204px]"
           alt=""
           src="/linkedin.svg"
         />
+        </a>
         <a
           className="[text-decoration:none] absolute top-[558px] left-[206px] w-[138px] h-[138px]"
           href="http://www.github.com/markghat"
@@ -95,6 +98,8 @@ const MacBookPro148 = () => {
             src="/icongithub1.svg"
           />
         </a>
+        <a href="https://drive.google.com/file/d/1Tg-KL-m9YDApqOHnh0bt0iWhePnGcyA9/view?usp=sharing"
+        target="_blank">
         <img
           className="absolute top-[558px] left-[371.85px] w-[218.29px] h-[204px]"
           alt=""
@@ -105,6 +110,7 @@ const MacBookPro148 = () => {
           alt=""
           src="/docs1.svg"
         />
+        </a>
         <img
           className="absolute h-[9.87%] w-[5.35%] top-[87.14%] right-[48.77%] bottom-[3%] left-[45.89%] max-w-full overflow-hidden max-h-full"
           alt=""
