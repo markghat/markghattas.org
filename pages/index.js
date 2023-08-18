@@ -204,7 +204,7 @@ const MacBookPro148 = () => {
         </b>
         <div className="absolute top-[555px] left-[801px] rounded-11xl w-[535px] h-[316px]" />
         <div className="absolute top-[1130px] left-[0px] rounded-11xl w-[535px] h-[316px]" />
-        <b className="absolute top-[421px] left-[990px] text-25xl inline-block font-space-mono text-black w-[560px] h-[163px]">
+        <b className="absolute top-[421px] left-[988px] text-25xl inline-block font-space-mono text-black w-[560px] h-[163px]">
           Fidelity Investments
         </b>
         <b className="absolute top-[996px] left-[189px] text-25xl inline-block font-space-mono text-black w-[560px] h-[163px]">
