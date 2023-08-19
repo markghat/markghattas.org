@@ -53,7 +53,12 @@ const MacBookPro148 = () => {
 
       {/*Floating Computer*/}
       <div className="absolute top-[83px] left-[109px] w-[1406px] h-[762px] overflow-hidden text-93xl">
-        <div className="absolute top-[169.25px] left-[736px] w-[500.5px] h-[517.22px] [transform:_rotate(-19.76deg)] [transform-origin:0_0]">  
+        <div className="absolute top-[169.25px] left-[736px] w-[500.5px] h-[517.22px] [transform:_rotate(-19.76deg)] [transform-origin:0_0]">
+          <img
+            className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover hidden"
+            alt=""
+            src="/ComputerImage.png"
+          />
         </div>
         <img
           className="absolute h-[86.09%] w-[45.94%] top-[2.62%] right-[1.71%] bottom-[11.29%] left-[52.35%] max-w-full overflow-hidden max-h-full object-cover"
