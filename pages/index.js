@@ -50,19 +50,17 @@ const MacBookPro148 = () => {
         <p className="m-0">With a broad array of experience...</p>
         <p className="m-0 text-47xl">&nbsp;</p>
       </div>
+
+      {/*Floating Computer*/}
       <div className="absolute top-[83px] left-[109px] w-[1406px] h-[762px] overflow-hidden text-93xl">
-        <div className="absolute top-[169.25px] left-[736px] w-[500.5px] h-[517.22px] [transform:_rotate(-19.76deg)] [transform-origin:0_0]">
-          <img
-            className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover hidden"
-            alt=""
-            src="/ComputerImage.png"
-          />
+        <div className="absolute top-[169.25px] left-[736px] w-[500.5px] h-[517.22px] [transform:_rotate(-19.76deg)] [transform-origin:0_0]">  
         </div>
         <img
           className="absolute h-[86.09%] w-[45.94%] top-[2.62%] right-[1.71%] bottom-[11.29%] left-[52.35%] max-w-full overflow-hidden max-h-full object-cover"
           alt=""
           src="/ComputerImage.png"
         />
+        {/*Hi, I'm Mark*/}
         <div className="absolute top-[169px] left-[0px] w-[1059px] flex flex-col items-start justify-start">
           <div className="w-[752px] overflow-hidden flex flex-col items-start justify-start">
             <div className="relative font-semibold inline-block w-[383px] h-[149px] shrink-0">
@@ -186,7 +184,7 @@ const MacBookPro148 = () => {
         <img
           className="absolute top-[1744px] left-[692px] rounded-11xl w-[861px] h-[419px] object-cover"
           alt=""
-          src="/screenshot-20230623-at-712-2@2x.png"
+          src="/VR_Image.png"
         />
         </a>
         <a href = "https://github.com/markghat/PLPredictor"
@@ -194,7 +192,7 @@ const MacBookPro148 = () => {
         <img
           className="absolute top-[2416px] left-[102px] rounded-11xl w-[701px] h-[522.36px] object-cover"
           alt=""
-          src="/screenshot-20230623-at-744-1@2x.png"
+          src="PL_Image.png"
         />
         </a>
         <div className="absolute top-[3420px] left-[227px] text-93xl font-semibold font-outfit text-white inline-block w-[1059px] h-[149px]">
