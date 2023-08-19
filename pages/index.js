@@ -67,7 +67,7 @@ const MacBookPro148 = () => {
         />
         */}
         {/*Hi, I'm Mark  169, 0, 1059*/}
-        <div className="absolute top-[5%] bottom-[25%] left-[2%] w-[100%] flex flex-col items-start justify-start">
+        <div className="absolute top-[5%] bottom-[25%] left-[2%] w-[90%] flex flex-col items-start justify-start">
           <div className="w-[50%] overflow-hidden flex flex-col items-start justify-start">
             <div className="relative font-semibold inline-block w-[383px] h-[149px] shrink-0">
               <p className="m-0">{`Hi, `}</p>
@@ -138,14 +138,17 @@ const MacBookPro148 = () => {
         <div className="absolute top-[1433px] left-[75px] bg-gray-200 w-[1512px] h-[2792px]" />
         <div className="absolute top-[0px] left-[75px] bg-gainsboro-300 w-[1512px] h-[1433px]" />
         <div className="absolute top-[3092px] left-[75px] bg-black w-[1512px] h-[1184px]" />
+        <div className="absolute top-[3420px] left-[20vw] text-[10vw] font-semibold font-outfit text-white inline-block w-[1059px] h-[149px]">
+          Let’s Connect
+        </div>
         <a
-          className="[text-decoration:none] absolute top-[3796px] left-[364px] text-41xl font-semibold font-outfit text-white inline-block w-[247px] h-[81px] transition-transform transition-color transform hover:scale-110 hover:text-blue-500"
+          className="[text-decoration:none] absolute top-[3796px] left-[31vw] text-[7vw] font-semibold font-outfit text-white inline-block w-[9vw] h-[9vh] transition-transform transition-color transform hover:scale-110 hover:text-blue-500"
           href="mailto:markag121@gmail.com"
         >
           Email
         </a>
         <a
-          className="[text-decoration:none] absolute top-[3653px] left-[364px] text-41xl font-semibold font-outfit text-white inline-block w-[247px]  h-[81px] transition-transform transition-color transform hover:scale-110 hover:text-blue-500"
+          className="[text-decoration:none] absolute top-[3653px] left-[31vw] text-[7vw] font-semibold font-outfit text-white inline-block w-[9vw]  h-[9vh] transition-transform transition-color transform hover:scale-110 hover:text-blue-500"
           href="http://www.linkedin.com/in/markghat"
           target="_blank"
         >
@@ -201,9 +204,7 @@ const MacBookPro148 = () => {
           src="PL_Image.png"
         />
         </a>
-        <div className="absolute top-[3420px] left-[227px] text-93xl font-semibold font-outfit text-white inline-block w-[1059px] h-[149px]">
-          Let’s Connect
-        </div>
+        
         <div className="absolute top-[1796px] left-[231px] rounded-11xl bg-gainsboro-200 w-[535px] h-[316px]" />
         <b className="absolute top-[1867px] left-[289px] inline-block text-center w-[414px] h-[173px]">
           Interactive meditation world that facilitates controlled breathing and
