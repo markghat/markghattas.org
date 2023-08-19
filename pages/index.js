@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { fab, faDiscord } from "@fortawesome/free-brands-svg-icons";
+//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+//import { fab, faDiscord } from "@fortawesome/free-brands-svg-icons";
 const MacBookPro148 = () => {
   useEffect(() => {
     const scrollAnimElements = document.querySelectorAll(
@@ -40,7 +40,7 @@ const MacBookPro148 = () => {
       <img
         className="absolute top-[0px] left-[0px] w-[206.23px] h-[195px] object-cover"
         alt=""
-        src="/-7999ac2abc024ad9ba41eb1a76efc551-1@2x.png"
+        src="/MG_Logo.png"
       />
       <div className="absolute top-[1122px] left-[724px] font-semibold inline-block w-[1059px] h-[149px]">
         <p className="m-0">Student at Duke University...</p>
@@ -55,13 +55,13 @@ const MacBookPro148 = () => {
           <img
             className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover hidden"
             alt=""
-            src="/objectother-03@2x.png"
+            src="/ComputerImage.png"
           />
         </div>
         <img
           className="absolute h-[86.09%] w-[45.94%] top-[2.62%] right-[1.71%] bottom-[11.29%] left-[52.35%] max-w-full overflow-hidden max-h-full object-cover"
           alt=""
-          src="/objectother-03@2x.png"
+          src="/ComputerImage.png"
         />
         <div className="absolute top-[169px] left-[0px] w-[1059px] flex flex-col items-start justify-start">
           <div className="w-[752px] overflow-hidden flex flex-col items-start justify-start">
@@ -75,14 +75,18 @@ const MacBookPro148 = () => {
             </div>
           </div>
         </div>
+
+        {/*Linkedin Button*/} 
         <a href="http://linkedin.com/in/markghat"
         target="_blank">
         <img
-          className="absolute top-[558px] left-[0px] w-[197.15px] h-[204px]"
+          className="absolute top-[558px] left-[0px] w-[199.15px] h-[206px]"
           alt=""
           src="/linkedin.svg"
         />
         </a>
+
+        {/*Github Button*/} 
         <a
           className="[text-decoration:none] absolute top-[558px] left-[206px] w-[138px] h-[138px]"
           href="http://www.github.com/markghat"
@@ -91,23 +95,25 @@ const MacBookPro148 = () => {
           <img
             className="absolute top-[0px] left-[-40.15px] w-[218.29px] h-[204px]"
             alt=""
-            src="/linkedin1.svg"
+            src="/Button.svg"
           />
           <img
-            className="absolute top-[18px] left-[18px] w-[102px] h-[102px] overflow-hidden"
+            className="absolute top-[10px] left-[18px] w-[102px] h-[102px] overflow-hidden"
             alt=""
             src="/icongithub1.svg"
           />
+
+        {/*Resume Button*/} 
         </a>
         <a href="https://drive.google.com/file/d/1Tg-KL-m9YDApqOHnh0bt0iWhePnGcyA9/view?usp=sharing"
         target="_blank">
         <img
-          className="absolute top-[558px] left-[371.85px] w-[218.29px] h-[204px]"
+          className="absolute top-[558px] left-[351.85px] w-[218.29px] h-[204px]"
           alt=""
-          src="/linkedin1.svg"
+          src="/Button.svg"
         />
         <img
-          className="absolute top-[583px] left-[438px] w-[92px] h-[88px]"
+          className="absolute top-[575px] left-[418px] w-[92px] h-[88px]"
           alt=""
           src="/docs1.svg"
         />
@@ -167,12 +173,12 @@ const MacBookPro148 = () => {
         <img
           className="absolute top-[398px] left-[187px] rounded-11xl w-[675px] h-[371px] object-cover"
           alt=""
-          src="/fidelity-logo-1@2x.png"
+          src="/Fidelity.png"
         />
         <img
           className="absolute top-[996px] left-[801px] rounded-11xl w-[675px] h-[371px] object-cover"
           alt=""
-          src="/fidelity-logo-2@2x.png"
+          src="/XPRIZE.png"
         />
        
         <a href = "https://github.com/markghat/VRMeditationSpace"
@@ -243,7 +249,7 @@ const MacBookPro148 = () => {
         <img
           className="absolute top-[91px] left-[46px] w-[259px] h-[194px] object-cover hidden"
           alt=""
-          src="/image-1@2x.png"
+          src="/Duke_Logo2@2x.png"
         />
         <div className="absolute top-[119px] left-[349px] w-[998px] h-[184px] overflow-hidden">
           <div className="absolute top-[0px] left-[124px] text-left inline-block w-[874px] h-[75px] text-34xl">
@@ -290,7 +296,7 @@ const MacBookPro148 = () => {
       <img
         className="absolute top-[1424px] left-[0px] w-[465px] h-[376px] object-cover"
         alt=""
-        src="/image-7@2x.png"
+        src="/Duke_Logo2.png"
       />
     </div>
   );
