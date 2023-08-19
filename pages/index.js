@@ -52,8 +52,7 @@ const MacBookPro148 = () => {
       </div>
 
       
-      <div className="absolute top-[83px] left-[109px] w-[1406px] h-[762px] overflow-hidden text-93xl">
-      {/*Floating Computer
+      <div className="absolute top-[0%] left-[7.1%] w-[100%] h-[49.4%] overflow-hidden text-93xl">      {/*Floating Computer
         <div className="absolute top-[169.25px] left-[736px] w-[500.5px] h-[517.22px] [transform:_rotate(-19.76deg)] [transform-origin:0_0]">
           <img
             className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover hidden"
@@ -68,8 +67,8 @@ const MacBookPro148 = () => {
         />
         */}
         {/*Hi, I'm Mark  169, 0, 1059*/}
-        <div className="absolute top-[25%] left-[3%] w-[90%] flex flex-col items-start justify-start">
-          <div className="w-[90%] overflow-hidden flex flex-col items-start justify-start">
+        <div className="absolute top-[5%] bottom-[25%] left-[2%] w-[100%] flex flex-col items-start justify-start">
+          <div className="w-[50%] overflow-hidden flex flex-col items-start justify-start">
             <div className="relative font-semibold inline-block w-[383px] h-[149px] shrink-0">
               <p className="m-0">{`Hi, `}</p>
               <p className="m-0">&nbsp;</p>
