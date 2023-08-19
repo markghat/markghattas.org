@@ -86,7 +86,7 @@ const MacBookPro148 = () => {
         <img
           className="absolute top-[558px] left-[0px] w-[199.15px] h-[206px]"
           alt=""
-          src="/linkedin.svg"
+          src="/linkedin1.svg"
         />
         </a>
 
@@ -141,25 +141,14 @@ const MacBookPro148 = () => {
         <div className="absolute top-[3420px] left-[20vw] text-[10vw] font-semibold font-outfit text-white inline-block w-[1059px] h-[149px]">
           Let’s Connect
         </div>
-        <a
-          className="[text-decoration:none] absolute top-[3796px] left-[31vw] text-[7vw] font-semibold font-outfit text-white inline-block w-[9vw] h-[9vh] transition-transform transition-color transform hover:scale-110 hover:text-blue-500"
-          href="mailto:markag121@gmail.com"
-        >
-          Email
-        </a>
-        <a
-          className="[text-decoration:none] absolute top-[3653px] left-[31vw] text-[7vw] font-semibold font-outfit text-white inline-block w-[9vw]  h-[9vh] transition-transform transition-color transform hover:scale-110 hover:text-blue-500"
-          href="http://www.linkedin.com/in/markghat"
-          target="_blank"
-        >
-          Linkedin
-        </a>
+
+        {/*email*/}
         <a
           className="[text-decoration:none] absolute h-[1.82%] w-[5.31%] top-[88.84%] right-[82.64%] bottom-[9.34%] left-[12.05%]"
           href="mailto:markag121@gmail.com"
         >
           <img
-            className="absolute h-[115.82%] w-[112.31%] top-[-7.91%] right-[-6.15%] bottom-[-7.91%] left-[-6.15%] max-w-full overflow-hidden max-h-full"
+            className="absolute h-[3700px] w-[112.31%] top-[-7.91%] right-[-8.15%] bottom-[-7.91%] left-[.15%] max-w-full overflow-hidden max-h-full"
             alt=""
             src="/vector.svg"
           />
@@ -169,6 +158,29 @@ const MacBookPro148 = () => {
             src="/vector1.svg"
           />
         </a>
+        <a
+          className="[text-decoration:none] absolute top-[3796px] left-[31vw] text-[7vw] font-semibold font-outfit text-white inline-block w-[9vw] h-[9vh] transition-transform transition-color transform hover:scale-110 hover:text-blue-500"
+          href="mailto:markag121@gmail.com"
+        >
+          Email
+        </a>
+
+        {/*Linkedin*/}
+        <a
+          className="[text-decoration:none] absolute top-[3653px] left-[31vw] text-[7vw] font-semibold font-outfit text-white inline-block w-[9vw]  h-[9vh] transition-transform transition-color transform hover:scale-110 hover:text-blue-500"
+          href="http://www.linkedin.com/in/markghat"
+          target="_blank"
+        >
+          Linkedin
+        </a>
+        
+        <img
+          className="absolute top-[3646px] left-[19vw] max-w-[30%] max-h-[30%] overflow-hidden"
+          alt=""
+          src="/linkedin2.svg"
+        />
+        
+        
         <div className="absolute top-[122px] left-[407px] font-semibold font-outfit inline-block w-[1059px] h-[149px] text-34xl text-gray-300">
           <p className="m-0">Here are some of my past roles...</p>
           <p className="m-0 text-47xl text-gray-100">&nbsp;</p>
@@ -244,11 +256,7 @@ const MacBookPro148 = () => {
           Developed data processing scripts for autonomous drones enabling
           real-time biodiversity mapping.
         </b>
-        <img
-          className="absolute h-[2.34%] w-[5.31%] top-[84.99%] right-[82.64%] bottom-[12.68%] left-[12.05%] max-w-full overflow-hidden max-h-full"
-          alt=""
-          src="/vector2.svg"
-        />
+        
       </div>
       <div className="absolute top-[1424px] left-[0px] bg-midnightblue w-[1515px] h-[376px] overflow-hidden text-center text-29xl text-whitesmoke font-roboto">
         <img
