@@ -108,12 +108,12 @@ const MacBookPro148 = () => {
         <a href="https://drive.google.com/file/d/1Tg-KL-m9YDApqOHnh0bt0iWhePnGcyA9/view?usp=sharing"
         target="_blank">
         <img
-          className="absolute top-[558px] left-[351.85px] w-[218.29px] h-[204px]"
+          className="absolute top-[558px] left-[341.85px] w-[218.29px] h-[204px]"
           alt=""
           src="/Button.svg"
         />
         <img
-          className="absolute top-[575px] left-[418px] w-[92px] h-[88px]"
+          className="absolute top-[575px] left-[408px] w-[92px] h-[88px]"
           alt=""
           src="/docs1.svg"
         />
