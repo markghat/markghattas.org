@@ -1,5 +1,6 @@
 import { useEffect } from "react";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { fab, faDiscord } from "@fortawesome/free-brands-svg-icons";
 const MacBookPro148 = () => {
   useEffect(() => {
     const scrollAnimElements = document.querySelectorAll(
@@ -122,18 +123,19 @@ const MacBookPro148 = () => {
         alt=""
         src="/frame.svg"
       />
+      
       <div className="absolute top-[3264px] left-[-75px] w-[1884px] h-[4276px] overflow-hidden text-11xl text-gray-600 font-dm-sans">
         <div className="absolute top-[1433px] left-[75px] bg-gray-200 w-[1512px] h-[2792px]" />
         <div className="absolute top-[0px] left-[75px] bg-gainsboro-300 w-[1512px] h-[1433px]" />
         <div className="absolute top-[3092px] left-[75px] bg-black w-[1512px] h-[1184px]" />
         <a
-          className="[text-decoration:none] absolute top-[3796px] left-[364px] text-41xl font-semibold font-outfit text-white inline-block w-[247px] h-[81px]"
+          className="[text-decoration:none] absolute top-[3796px] left-[364px] text-41xl font-semibold font-outfit text-white inline-block w-[247px] h-[81px] transition-transform transition-color transform hover:scale-110 hover:text-blue-500"
           href="mailto:markag121@gmail.com"
         >
           Email
         </a>
         <a
-          className="[text-decoration:none] absolute top-[3653px] left-[364px] text-41xl font-semibold font-outfit text-white inline-block w-[247px] h-[81px]"
+          className="[text-decoration:none] absolute top-[3653px] left-[364px] text-41xl font-semibold font-outfit text-white inline-block w-[247px]  h-[81px] transition-transform transition-color transform hover:scale-110 hover:text-blue-500"
           href="http://www.linkedin.com/in/markghat"
           target="_blank"
         >
