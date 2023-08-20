@@ -143,42 +143,44 @@ const MacBookPro148 = () => {
         </div>
 
         {/*email*/}
-        <a
-          className="[text-decoration:none] absolute h-[1.82%] w-[5.31%] top-[88.84%] right-[82.64%] bottom-[9.34%] left-[12.05%]"
-          href="mailto:markag121@gmail.com"
-        >
-          <img
-            className="absolute h-[3700px] w-[112.31%] top-[-7.91%] right-[-8.15%] bottom-[-7.91%] left-[.15%] max-w-full overflow-hidden max-h-full"
-            alt=""
-            src="/vector.svg"
-          />
-          <img
-            className="absolute h-[69.39%] w-[101.2%] top-[-4.34%] right-[-0.6%] bottom-[34.95%] left-[-0.6%] max-w-full overflow-hidden max-h-full"
-            alt=""
-            src="/vector1.svg"
-          />
-        </a>
-        <a
+        
+        
+        <div
           className="[text-decoration:none] absolute top-[3796px] left-[31vw] text-[7vw] font-semibold font-outfit text-white inline-block w-[9vw] h-[9vh] transition-transform transition-color transform hover:scale-110 hover:text-blue-500"
           href="mailto:markag121@gmail.com"
         >
           Email
-        </a>
+          
+          <img
+    className="absolute h-[115.82vh] w-[112.31vw] top-[-1vw] bottom-[-7.91vw] left-[-10vw] max-w-full overflow-hidden max-h-full"
+    alt=""
+    src="/vector.svg"
+  />
+  <img
+    className="absolute h-[69.39vh] w-[101vw] top-[-2.2vw] right-[-0.6vw] bottom-[34.95vw] left-[-10vw] max-w-full overflow-hidden max-h-full"
+    alt=""
+    src="/vector1.svg"
+  />
+        </div>
 
         {/*Linkedin*/}
-        <a
-          className="[text-decoration:none] absolute top-[3653px] left-[31vw] text-[7vw] font-semibold font-outfit text-white inline-block w-[9vw]  h-[9vh] transition-transform transition-color transform hover:scale-110 hover:text-blue-500"
-          href="http://www.linkedin.com/in/markghat"
-          target="_blank"
-        >
-          Linkedin
-        </a>
-        
-        <img
-          className="absolute top-[3646px] left-[19vw] max-w-[30%] max-h-[30%] overflow-hidden"
-          alt=""
-          src="/linkedin2.svg"
-        />
+        <div className="relative">
+  <div
+    className="[text-decoration:none] absolute top-[3653px] left-[31vw] text-[7vw] font-semibold font-outfit text-white inline-block w-[9vw] h-[9vh] transition-transform transition-color transform hover:scale-110 hover:text-blue-500"
+    href="http://www.linkedin.com/in/markghat"
+    target="_blank"
+  >
+    Linkedin
+    <img
+    className="absolute top-[-10px] right-[11vw]"
+    alt=""
+    src="/linkedin2.svg"
+  />
+  </div>
+
+  
+</div>
+
         
         
         <div className="absolute top-[122px] left-[407px] font-semibold font-outfit inline-block w-[1059px] h-[149px] text-34xl text-gray-300">
