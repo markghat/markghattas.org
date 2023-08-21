@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import Image from 'next/image';
 //import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 //import { fab, faDiscord } from "@fortawesome/free-brands-svg-icons";
 const MacBookPro148 = () => {
@@ -52,7 +53,7 @@ const MacBookPro148 = () => {
       </div>
 
       
-      <div className="absolute top-[0%] left-[7.1%] w-[100%] h-[49.4%] overflow-hidden text-93xl">      {/*Floating Computer
+      <div className="absolute top-[0%] left-[7.1%] w-[100%] h-[49.4%] overflow-hidden text-93xl">      {/*Floating Computer}
         <div className="absolute top-[169.25px] left-[736px] w-[500.5px] h-[517.22px] [transform:_rotate(-19.76deg)] [transform-origin:0_0]">
           <img
             className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover hidden"
@@ -152,7 +153,7 @@ const MacBookPro148 = () => {
           Email
           
           <img
-    className="absolute h-[115.82vh] w-[5.31vw] top-[-1vw] bottom-[-7.91vw] left-[-7.5vw] max-w-full overflow-hidden max-h-full"
+    className="absolute h-[115.82vh] w-[5.31vw] top-[-1vw] bottom-[-9.91vw] left-[-7.5vw] max-w-full overflow-hidden max-h-full"
     alt=""
     src="/email.png"
   />
@@ -186,17 +187,23 @@ const MacBookPro148 = () => {
           <p className="m-0">...and some personal projects</p>
           <p className="m-0 text-47xl text-black">&nbsp;</p>
         </div>
+        <div className="relative">
         <img
           className="absolute top-[398px] left-[187px] rounded-11xl w-[675px] h-[371px] object-cover"
           alt=""
           src="/Fidelity.png"
+          layout="fill"
+          objectFit="cover"
         />
+          </div>
+        <div className="relative">
         <img
           className="absolute top-[996px] left-[801px] rounded-11xl w-[675px] h-[371px] object-cover"
           alt=""
           src="/XPRIZE.png"
+          fill
         />
-       
+       </div>
         <a href = "https://github.com/markghat/VRMeditationSpace"
         target="_blank">
         <img
