@@ -146,27 +146,22 @@ const MacBookPro148 = () => {
         
         
         <div
-          className="[text-decoration:none] absolute top-[3796px] left-[31vw] text-[7vw] font-semibold font-outfit text-white inline-block w-[9vw] h-[9vh] transition-transform transition-color transform hover:scale-110 hover:text-blue-500"
+          className="[text-decoration:none] absolute top-[3796px] left-[31vw] text-[5vw] font-semibold font-outfit text-white inline-block w-[9vw] h-[9vh] transition-transform transition-color transform hover:scale-110 hover:text-blue-500"
           href="mailto:markag121@gmail.com"
         >
           Email
           
           <img
-    className="absolute h-[115.82vh] w-[112.31vw] top-[-1vw] bottom-[-7.91vw] left-[-10vw] max-w-full overflow-hidden max-h-full"
+    className="absolute h-[115.82vh] w-[5.31vw] top-[-1vw] bottom-[-7.91vw] left-[-7.5vw] max-w-full overflow-hidden max-h-full"
     alt=""
-    src="/vector.svg"
-  />
-  <img
-    className="absolute h-[69.39vh] w-[101vw] top-[-2.2vw] right-[-0.6vw] bottom-[34.95vw] left-[-10vw] max-w-full overflow-hidden max-h-full"
-    alt=""
-    src="/vector1.svg"
+    src="/email.png"
   />
         </div>
 
         {/*Linkedin*/}
         <div className="relative">
   <div
-    className="[text-decoration:none] absolute top-[3653px] left-[31vw] text-[7vw] font-semibold font-outfit text-white inline-block w-[9vw] h-[9vh] transition-transform transition-color transform hover:scale-110 hover:text-blue-500"
+    className="[text-decoration:none] absolute top-[3653px] left-[31vw] text-[5vw] font-semibold font-outfit text-white inline-block w-[9vw] h-[9vh] transition-transform transition-color transform hover:scale-110 hover:text-blue-500"
     href="http://www.linkedin.com/in/markghat"
     target="_blank"
   >
