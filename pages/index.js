@@ -209,7 +209,7 @@ const MacBookPro148 = () => {
         <a href = "https://devpost.com/software/nurse-alert-d4cuha "
         target="_blank">
         <img
-          className="absolute top-[1744px] left-[692px] rounded-11xl w-[861px] h-[419px] object-cover"
+          className="absolute top-[1744px] left-[692px] rounded-11xl w-[461px] h-[819px] object-cover"
           alt=""
           src="/NurseAlert.jpg"
         />
