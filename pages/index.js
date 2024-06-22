@@ -259,8 +259,7 @@ const MacBookPro148 = () => {
           for and access company databases.
         </b>
         <b className="absolute top-[1111px] left-[189px] inline-block w-[414px] h-[173px]">
-          Developed data processing scripts for autonomous drones enabling
-          real-time biodiversity mapping.
+         Worked on Reviews Platform to aggregate data across third-party sites such as Yelp, Google, Facebook, etc.
         </b>
         
       </div>
