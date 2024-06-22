@@ -34,9 +34,8 @@ const MacBookPro148 = () => {
   }, []);
 
   return (
-    //Entire website Object
     <div
-      className="relative bg-white w-100% h-[9489px] overflow-hidden [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1] text-left text-34xl text-black font-outfit lg:w-[1512px]"
+      className="relative bg-white w-full h-[7489px] overflow-hidden [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1] text-left text-34xl text-black font-outfit lg:w-[1512px]"
       data-animate-on-scroll
     >
       <img
@@ -136,11 +135,11 @@ const MacBookPro148 = () => {
         src="/frame.svg"
       />
       
-      <div className="absolute top-[3264px] left-[-75px] w-[100%] h-[12768px] overflow-hidden text-11xl text-gray-600 font-dm-sans">
-        <div className="absolute top-[2433px] left-[75px] bg-gray-200 w-[100%] h-[9988px]" />
-        <div className="absolute top-[0px] left-[75px] bg-gainsboro-300 w-[100%] h-[1433px]" />
-        <div className="absolute top-[4288px] left-[75px] bg-black w-[100%] h-[3572]" />
-        <div className="absolute top-[4616px] left-[20vw] text-[10vw] font-semibold font-outfit text-white inline-block w-[1059px] h-[749px]">
+      <div className="absolute top-[3264px] left-[-75px] w-[1884px] h-[4276px] overflow-hidden text-11xl text-gray-600 font-dm-sans">
+        <div className="absolute top-[1433px] left-[75px] bg-gray-200 w-[1512px] h-[2792px]" />
+        <div className="absolute top-[0px] left-[75px] bg-gainsboro-300 w-[1512px] h-[1433px]" />
+        <div className="absolute top-[3092px] left-[75px] bg-black w-[1512px] h-[1184px]" />
+        <div className="absolute top-[3420px] left-[20vw] text-[10vw] font-semibold font-outfit text-white inline-block w-[1059px] h-[149px]">
           Let’s Connect
         </div>
 
@@ -148,7 +147,7 @@ const MacBookPro148 = () => {
         
         
         <div
-          className="[text-decoration:none] absolute top-[3796px] left-[31vw] text-[5vw] font-semibold font-outfit text-white inline-block w-[9vw] h-[9vh] transition-transform transition-color transform hover:scale-110"
+          className="[text-decoration:none] absolute top-[3796px] left-[31vw] text-[5vw] font-semibold font-outfit text-white inline-block w-[9vw] h-[9vh] transition-transform transition-color transform hover:scale-110 hover:text-blue-500"
         >
           <a href="mailto:markag121@gmail.com">
           Email
@@ -164,7 +163,7 @@ const MacBookPro148 = () => {
         {/*Linkedin*/}
         <div className="relative">
   <div
-    className="[text-decoration:none] absolute top-[3653px] left-[31vw] text-[5vw] font-semibold font-outfit text-white inline-block w-[9vw] h-[9vh] transition-transform transition-color transform hover:scale-110"
+    className="[text-decoration:none] absolute top-[3653px] left-[31vw] text-[5vw] font-semibold font-outfit text-white inline-block w-[9vw] h-[9vh] transition-transform transition-color transform hover:scale-110 hover:text-blue-500"
     target="_blank"
   >
     <a href="http://www.linkedin.com/in/markghat">
@@ -186,18 +185,15 @@ const MacBookPro148 = () => {
           <p className="m-0">Here are some of my past roles...</p>
           <p className="m-0 text-47xl text-gray-100">&nbsp;</p>
         </div>
-        <div className="absolute top-[2688px] left-[825px] font-semibold font-outfit inline-block w-[1059px] h-[149px] text-34xl text-gainsboro-100">
+        <div className="absolute top-[1492px] left-[825px] font-semibold font-outfit inline-block w-[1059px] h-[149px] text-34xl text-gainsboro-100">
           <p className="m-0">...and some personal projects</p>
           <p className="m-0 text-47xl text-black">&nbsp;</p>
         </div>
         <div className="relative">
-          </div>
-        <div className="relative"></div>
-        <div className="relative">
         <img
           className="absolute top-[398px] left-[187px] rounded-11xl w-[675px] h-[371px] object-cover"
           alt=""
-          src="/yext2.jpg"
+          src="/Fidelity.png"
           layout="fill"
           objectFit="cover"
         />
@@ -206,21 +202,14 @@ const MacBookPro148 = () => {
         <img
           className="absolute top-[996px] left-[801px] rounded-11xl w-[675px] h-[371px] object-cover"
           alt=""
-          src="/Fidelity.png"
-          fill
-        />
-        <img
-          className="absolute top-[1594px] left-[187px] rounded-11xl w-[675px] h-[371px] object-cover"
-          alt=""
           src="/XPRIZE.png"
-          layout="fill"
-          objectFit="cover"
+          fill
         />
        </div>
         <a href = "https://github.com/markghat/VRMeditationSpace"
         target="_blank">
         <img
-          className="absolute top-[2940px] left-[692px] rounded-11xl w-[861px] h-[419px] object-cover"
+          className="absolute top-[1744px] left-[692px] rounded-11xl w-[861px] h-[419px] object-cover"
           alt=""
           src="/VR_Image.png"
         />
@@ -228,19 +217,19 @@ const MacBookPro148 = () => {
         <a href = "https://github.com/markghat/PLPredictor"
         target="_blank">
         <img
-          className="absolute top-[3612px] left-[102px] rounded-11xl w-[701px] h-[522.36px] object-cover"
+          className="absolute top-[2416px] left-[102px] rounded-11xl w-[701px] h-[522.36px] object-cover"
           alt=""
           src="PL_Image.png"
         />
         </a>
         
-        <div className="absolute top-[2992px] left-[231px] rounded-11xl bg-gainsboro-200 w-[535px] h-[316px]" />
-        <b className="absolute top-[3063px] left-[289px] inline-block text-center w-[414px] h-[173px]">
+        <div className="absolute top-[1796px] left-[231px] rounded-11xl bg-gainsboro-200 w-[535px] h-[316px]" />
+        <b className="absolute top-[1867px] left-[289px] inline-block text-center w-[414px] h-[173px]">
           Interactive meditation world that facilitates controlled breathing and
           meditation.
         </b>
-        <div className="absolute top-[3715px] left-[640px] rounded-11xl bg-thistle w-[535px] h-[316px]" />
-        <b className="absolute top-[3786px] left-[671px] inline-block text-center w-[475px] h-[173px]">
+        <div className="absolute top-[2519px] left-[640px] rounded-11xl bg-thistle w-[535px] h-[316px]" />
+        <b className="absolute top-[2590px] left-[671px] inline-block text-center w-[475px] h-[173px]">
           ML application using Premier League statistics from previous seasons
           to predict the current season’s champion.
         </b>
@@ -258,14 +247,11 @@ const MacBookPro148 = () => {
         <b className="absolute top-[1052px] left-[189px] text-16xl inline-block text-gray-400 w-[493px] h-[118px]">
           Research Assistant
         </b>
-        <b className="absolute top-[3004px] left-[256px] text-16xl inline-block text-gray-500 text-center w-[493px] h-[118px]">
+        <b className="absolute top-[1808px] left-[256px] text-16xl inline-block text-gray-500 text-center w-[493px] h-[118px]">
           VR Meditation Space
         </b>
-        <b className="absolute top-[3725px] left-[661px] text-16xl inline-block text-gray-500 text-center w-[493px] h-[118px]">
+        <b className="absolute top-[2531px] left-[661px] text-16xl inline-block text-gray-500 text-center w-[493px] h-[118px]">
           Premier League Predictor
-        </b>
-        <b className="absolute top-[0px] left-[189px] inline-block w-[414px] h-[173px]">
-         This is my yext filler text.
         </b>
         <b className="absolute top-[536px] left-[990px] inline-block w-[539px] h-[173px]">
           Developed proprietary search engine and implemented embedding
@@ -278,7 +264,7 @@ const MacBookPro148 = () => {
         </b>
         
       </div>
-      <div className="absolute top-[1424px] left-[0px] bg-midnightblue w-[100%] h-[376px] overflow-hidden text-center text-29xl text-whitesmoke font-roboto">
+      <div className="absolute top-[1424px] left-[0px] bg-midnightblue w-[1515px] h-[376px] overflow-hidden text-center text-29xl text-whitesmoke font-roboto">
         <img
           className="absolute top-[91px] left-[46px] w-[259px] h-[194px] object-cover hidden"
           alt=""
