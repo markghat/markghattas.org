@@ -225,7 +225,7 @@ const MacBookPro148 = () => {
         
         <div className="absolute top-[1796px] left-[231px] rounded-11xl bg-gainsboro-200 w-[535px] h-[316px]" />
         <b className="absolute top-[1867px] left-[289px] inline-block text-center w-[414px] h-[173px]">
-          Fllstack iOS app for hospitals to classify severity of patient requests, store in database, and send SMS to nurse
+          Fullstack iOS app for hospitals to classify severity of patient requests, store in database, and send SMS to nurse
         </b>
         <div className="absolute top-[2519px] left-[640px] rounded-11xl bg-thistle w-[535px] h-[316px]" />
         <b className="absolute top-[2590px] left-[671px] inline-block text-center w-[475px] h-[173px]">
