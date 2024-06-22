@@ -135,11 +135,14 @@ const MacBookPro148 = () => {
         src="/frame.svg"
       />
       
-      <div className="absolute top-[3264px] left-[-75px] w-[1884px] h-[6668px] overflow-hidden text-11xl text-gray-600 font-dm-sans">
-        <div className="absolute top-[1433px] left-[75px] bg-gray-200 w-[1512px] h-[3988px]" />
-        <div className="absolute top-[0px] left-[75px] bg-gainsboro-300 w-[1512px] h-[1433px]" />
-        <div className="absolute top-[4288px] left-[75px] bg-black w-[1512px] h-[3572]" />
-        <div className="absolute top-[4616px] left-[20vw] text-[10vw] font-semibold font-outfit text-white inline-block w-[1059px] h-[149px]">
+      <div className="absolute top-[50%] left-[50%] transform[-translate(-50%, -50%)] w-[80%] h-[80%] overflow-hidden text-11xl text-gray-600 font-dm-sans">
+  <div className="absolute top-[40%] left-[5%] bg-gray-200 w-[70%] h-[60%]" />
+  <div className="absolute top-[0%] left-[5%] bg-gainsboro-300 w-[70%] h-[40%]" />
+  <div className="absolute top-[80%] left-[5%] bg-black w-[70%] h-[30%]" />
+  <div className="absolute top-[90%] left-[5%] text-[5vw] font-semibold font-outfit text-white inline-block w-[60%] h-[10%]">
+  </div>
+</div>
+
           Let’s Connect
         </div>
 
