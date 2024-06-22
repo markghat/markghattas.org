@@ -191,9 +191,9 @@ const MacBookPro148 = () => {
         </div>
         <div className="relative">
         <img
-          className="absolute top-[398px] left-[801px] rounded-11xl w-[675px] h-[371px] object-cover"
+          className="absolute top-[0px] left-[801px] rounded-11xl w-[675px] h-[371px] object-cover"
           alt=""
-          src="/Fidelity.png"
+          src="/yext.png"
           layout="fill"
           objectFit="cover"
         />
@@ -262,6 +262,9 @@ const MacBookPro148 = () => {
         </b>
         <b className="absolute top-[2531px] left-[661px] text-16xl inline-block text-gray-500 text-center w-[493px] h-[118px]">
           Premier League Predictor
+        </b>
+        <b className="absolute top-[0px] left-[189px] inline-block w-[414px] h-[173px]">
+         This is my yext filler text.
         </b>
         <b className="absolute top-[536px] left-[990px] inline-block w-[539px] h-[173px]">
           Developed proprietary search engine and implemented embedding
