@@ -138,7 +138,7 @@ const MacBookPro148 = () => {
       <div className="absolute top-[3264px] left-[-75px] w-[1884px] h-[4276px] overflow-hidden text-11xl text-gray-600 font-dm-sans">
         <div className="absolute top-[1433px] left-[75px] bg-gray-200 w-[1512px] h-[2792px]" />
         <div className="absolute top-[0px] left-[75px] bg-gainsboro-300 w-[1512px] h-[1433px]" />
-        <div className="absolute top-[3092px] left-[75px] bg-black w-[1512px] h-[1184px]" />
+        <div className="absolute top-[4288px] left-[75px] bg-black w-[1512px] h-[1184px]" />
         <div className="absolute top-[3420px] left-[20vw] text-[10vw] font-semibold font-outfit text-white inline-block w-[1059px] h-[149px]">
           Let’s Connect
         </div>
@@ -185,7 +185,7 @@ const MacBookPro148 = () => {
           <p className="m-0">Here are some of my past roles...</p>
           <p className="m-0 text-47xl text-gray-100">&nbsp;</p>
         </div>
-        <div className="absolute top-[1492px] left-[825px] font-semibold font-outfit inline-block w-[1059px] h-[149px] text-34xl text-gainsboro-100">
+        <div className="absolute top-[2688px] left-[825px] font-semibold font-outfit inline-block w-[1059px] h-[149px] text-34xl text-gainsboro-100">
           <p className="m-0">...and some personal projects</p>
           <p className="m-0 text-47xl text-black">&nbsp;</p>
         </div>
@@ -257,10 +257,10 @@ const MacBookPro148 = () => {
         <b className="absolute top-[1052px] left-[189px] text-16xl inline-block text-gray-400 w-[493px] h-[118px]">
           Research Assistant
         </b>
-        <b className="absolute top-[1808px] left-[256px] text-16xl inline-block text-gray-500 text-center w-[493px] h-[118px]">
+        <b className="absolute top-[3004px] left-[256px] text-16xl inline-block text-gray-500 text-center w-[493px] h-[118px]">
           VR Meditation Space
         </b>
-        <b className="absolute top-[2531px] left-[661px] text-16xl inline-block text-gray-500 text-center w-[493px] h-[118px]">
+        <b className="absolute top-[3725px] left-[661px] text-16xl inline-block text-gray-500 text-center w-[493px] h-[118px]">
           Premier League Predictor
         </b>
         <b className="absolute top-[0px] left-[189px] inline-block w-[414px] h-[173px]">
