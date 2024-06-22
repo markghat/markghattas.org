@@ -137,7 +137,7 @@ const MacBookPro148 = () => {
       
       <div className="absolute top-[3264px] left-[-75px] w-[1884px] h-[4276px] overflow-hidden text-11xl text-gray-600 font-dm-sans">
         <div className="absolute top-[1433px] left-[75px] bg-gray-200 w-[1512px] h-[2792px]" />
-        <div className="absolute top-[0px] left-[75px] bg-gainsboro-300 w-[1512px] h-[1433px]" />
+        <div className="absolute top-[0px] left-[75px] bg-gainsboro-300 w-[1512px] h-[2433px]" />
         <div className="absolute top-[3092px] left-[75px] bg-black w-[1512px] h-[1184px]" />
         <div className="absolute top-[3420px] left-[20vw] text-[10vw] font-semibold font-outfit text-white inline-block w-[1059px] h-[149px]">
           Let’s Connect
@@ -193,7 +193,7 @@ const MacBookPro148 = () => {
         <img
           className="absolute top-[0px] left-[801px] rounded-11xl w-[675px] h-[371px] object-cover"
           alt=""
-          src="/yext.png"
+          src="/yext2.png"
           layout="fill"
           objectFit="cover"
         />
