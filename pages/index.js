@@ -229,7 +229,7 @@ const MacBookPro148 = () => {
         </b>
         <div className="absolute top-[2519px] left-[640px] rounded-11xl bg-thistle w-[535px] h-[316px]" />
         <b className="absolute top-[2590px] left-[671px] inline-block text-center w-[475px] h-[173px]">
-          ML application using Premier League statistics from previous seasons
+          ML model using Premier League statistics from previous seasons
           to predict the current season’s champion.
         </b>
         <div className="absolute top-[555px] left-[801px] rounded-11xl w-[535px] h-[316px]" />
