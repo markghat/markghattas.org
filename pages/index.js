@@ -35,7 +35,7 @@ const MacBookPro148 = () => {
 
   return (
     <div
-      className="relative bg-white w-full h-[7489px] overflow-hidden [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1] text-left text-34xl text-black font-outfit lg:w-[1512px]"
+      className="relative bg-white w-full h-[9489px] overflow-hidden [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1] text-left text-34xl text-black font-outfit lg:w-[1512px]"
       data-animate-on-scroll
     >
       <img
