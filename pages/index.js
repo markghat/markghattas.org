@@ -193,7 +193,7 @@ const MacBookPro148 = () => {
         <img
           className="absolute top-[398px] left-[187px] rounded-11xl w-[675px] h-[371px] object-cover"
           alt=""
-          src="/Fidelity.png"
+          src="/yext.jpg"
           layout="fill"
           objectFit="cover"
         />
@@ -202,7 +202,7 @@ const MacBookPro148 = () => {
         <img
           className="absolute top-[996px] left-[801px] rounded-11xl w-[675px] h-[371px] object-cover"
           alt=""
-          src="/XPRIZE.png"
+          src="/Fidelity.png"
           fill
         />
        </div>
@@ -236,13 +236,13 @@ const MacBookPro148 = () => {
         <div className="absolute top-[555px] left-[801px] rounded-11xl w-[535px] h-[316px]" />
         <div className="absolute top-[1130px] left-[0px] rounded-11xl w-[535px] h-[316px]" />
         <b className="absolute top-[421px] left-[988px] text-25xl inline-block font-space-mono text-black w-[560px] h-[163px]">
-          Fidelity Investments
+          Yext
         </b>
         <b className="absolute top-[996px] left-[189px] text-25xl inline-block font-space-mono text-black w-[560px] h-[163px]">
-          XPRIZE Robotics
+        Full Stack SWE Intern
         </b>
         <b className="absolute top-[477px] left-[990px] text-16xl inline-block text-gray-400 w-[406px] h-[118px]">
-          Full Stack SWE Intern
+          SWE Intern
         </b>
         <b className="absolute top-[1052px] left-[189px] text-16xl inline-block text-gray-400 w-[493px] h-[118px]">
           Research Assistant
