@@ -147,7 +147,7 @@ const MacBookPro148 = () => {
         
         
         <div
-          className="[text-decoration:none] absolute top-[3796px] left-[31vw] text-[5vw] font-semibold font-outfit text-white inline-block w-[9vw] h-[9vh] transition-transform transition-color transform hover:scale-110 hover:text-blue-500"
+          className="[text-decoration:none] absolute top-[3796px] left-[31vw] text-[5vw] font-semibold font-outfit text-white inline-block w-[9vw] h-[9vh] transition-transform transition-color transform hover:scale-110"
         >
           <a href="mailto:markag121@gmail.com">
           Email
@@ -163,7 +163,7 @@ const MacBookPro148 = () => {
         {/*Linkedin*/}
         <div className="relative">
   <div
-    className="[text-decoration:none] absolute top-[3653px] left-[31vw] text-[5vw] font-semibold font-outfit text-white inline-block w-[9vw] h-[9vh] transition-transform transition-color transform hover:scale-110 hover:text-blue-500"
+    className="[text-decoration:none] absolute top-[3653px] left-[31vw] text-[5vw] font-semibold font-outfit text-white inline-block w-[9vw] h-[9vh] transition-transform transition-color transform hover:scale-110"
     target="_blank"
   >
     <a href="http://www.linkedin.com/in/markghat">
@@ -189,6 +189,16 @@ const MacBookPro148 = () => {
           <p className="m-0">...and some personal projects</p>
           <p className="m-0 text-47xl text-black">&nbsp;</p>
         </div>
+        <div className="relative">
+        <img
+          className="absolute top-[398px] left-[801px] rounded-11xl w-[675px] h-[371px] object-cover"
+          alt=""
+          src="/Fidelity.png"
+          layout="fill"
+          objectFit="cover"
+        />
+          </div>
+        <div className="relative"></div>
         <div className="relative">
         <img
           className="absolute top-[398px] left-[187px] rounded-11xl w-[675px] h-[371px] object-cover"
