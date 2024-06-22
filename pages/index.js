@@ -135,7 +135,7 @@ const MacBookPro148 = () => {
         src="/frame.svg"
       />
       
-      <div className="absolute top-[3264px] left-[-75px] w-[1884px] h-[5472px] overflow-hidden text-11xl text-gray-600 font-dm-sans">
+      <div className="absolute top-[3264px] left-[-75px] w-[1884px] h-[6668px] overflow-hidden text-11xl text-gray-600 font-dm-sans">
         <div className="absolute top-[1433px] left-[75px] bg-gray-200 w-[1512px] h-[3988px]" />
         <div className="absolute top-[0px] left-[75px] bg-gainsboro-300 w-[1512px] h-[1433px]" />
         <div className="absolute top-[4288px] left-[75px] bg-black w-[1512px] h-[2380]" />
