@@ -206,12 +206,12 @@ const MacBookPro148 = () => {
           fill
         />
        </div>
-        <a href = "https://github.com/markghat/VRMeditationSpace"
+        <a href = "https://devpost.com/software/nurse-alert-d4cuha "
         target="_blank">
         <img
           className="absolute top-[1744px] left-[692px] rounded-11xl w-[861px] h-[419px] object-cover"
           alt=""
-          src="/VR_Image.png"
+          src="/NurseAlert.jpg"
         />
         </a>
         <a href = "https://github.com/markghat/PLPredictor"
@@ -223,10 +223,9 @@ const MacBookPro148 = () => {
         />
         </a>
         
-        <div className="absolute top-[1796px] left-[231px] rounded-11xl bg-gainsboro-200 w-[535px] h-[316px]" />
+        <div className="absolute top-[1796px] left-[231px] rounded-11xl bg-thistle w-[535px] h-[316px]" />
         <b className="absolute top-[1867px] left-[289px] inline-block text-center w-[414px] h-[173px]">
-          Interactive meditation world that facilitates controlled breathing and
-          meditation.
+          Fllstack iOS app for hospitals to classify severity of patient requests, store in database, and send SMS to nurse
         </b>
         <div className="absolute top-[2519px] left-[640px] rounded-11xl bg-thistle w-[535px] h-[316px]" />
         <b className="absolute top-[2590px] left-[671px] inline-block text-center w-[475px] h-[173px]">
@@ -248,7 +247,7 @@ const MacBookPro148 = () => {
         Full Stack SWE Intern
         </b>
         <b className="absolute top-[1808px] left-[256px] text-16xl inline-block text-gray-500 text-center w-[493px] h-[118px]">
-          VR Meditation Space
+          Nurse Alert
         </b>
         <b className="absolute top-[2531px] left-[661px] text-16xl inline-block text-gray-500 text-center w-[493px] h-[118px]">
           Premier League Predictor
