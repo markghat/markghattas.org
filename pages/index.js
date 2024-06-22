@@ -205,13 +205,13 @@ const MacBookPro148 = () => {
         <img
           className="absolute top-[996px] left-[801px] rounded-11xl w-[675px] h-[371px] object-cover"
           alt=""
-          src="/fidelity.png"
+          src="/Fidelity.png"
           fill
         />
         <img
           className="absolute top-[1594px] left-[187px] rounded-11xl w-[675px] h-[371px] object-cover"
           alt=""
-          src="/XPRIZE.jpg"
+          src="/XPRIZE.png"
           layout="fill"
           objectFit="cover"
         />
@@ -219,7 +219,7 @@ const MacBookPro148 = () => {
         <a href = "https://github.com/markghat/VRMeditationSpace"
         target="_blank">
         <img
-          className="absolute top-[1744px] left-[692px] rounded-11xl w-[861px] h-[419px] object-cover"
+          className="absolute top-[2940px] left-[692px] rounded-11xl w-[861px] h-[419px] object-cover"
           alt=""
           src="/VR_Image.png"
         />
@@ -227,19 +227,19 @@ const MacBookPro148 = () => {
         <a href = "https://github.com/markghat/PLPredictor"
         target="_blank">
         <img
-          className="absolute top-[2416px] left-[102px] rounded-11xl w-[701px] h-[522.36px] object-cover"
+          className="absolute top-[3612px] left-[102px] rounded-11xl w-[701px] h-[522.36px] object-cover"
           alt=""
           src="PL_Image.png"
         />
         </a>
         
-        <div className="absolute top-[1796px] left-[231px] rounded-11xl bg-gainsboro-200 w-[535px] h-[316px]" />
-        <b className="absolute top-[1867px] left-[289px] inline-block text-center w-[414px] h-[173px]">
+        <div className="absolute top-[2992px] left-[231px] rounded-11xl bg-gainsboro-200 w-[535px] h-[316px]" />
+        <b className="absolute top-[3063px] left-[289px] inline-block text-center w-[414px] h-[173px]">
           Interactive meditation world that facilitates controlled breathing and
           meditation.
         </b>
-        <div className="absolute top-[2519px] left-[640px] rounded-11xl bg-thistle w-[535px] h-[316px]" />
-        <b className="absolute top-[2590px] left-[671px] inline-block text-center w-[475px] h-[173px]">
+        <div className="absolute top-[3715px] left-[640px] rounded-11xl bg-thistle w-[535px] h-[316px]" />
+        <b className="absolute top-[3786px] left-[671px] inline-block text-center w-[475px] h-[173px]">
           ML application using Premier League statistics from previous seasons
           to predict the current season’s champion.
         </b>
