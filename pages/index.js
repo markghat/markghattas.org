@@ -239,13 +239,13 @@ const MacBookPro148 = () => {
           Yext
         </b>
         <b className="absolute top-[996px] left-[189px] text-25xl inline-block font-space-mono text-black w-[560px] h-[163px]">
-        Full Stack SWE Intern
+        Fidelity Investments
         </b>
         <b className="absolute top-[477px] left-[990px] text-16xl inline-block text-gray-400 w-[406px] h-[118px]">
           SWE Intern
         </b>
         <b className="absolute top-[1052px] left-[189px] text-16xl inline-block text-gray-400 w-[493px] h-[118px]">
-          Research Assistant
+        Full Stack SWE Intern
         </b>
         <b className="absolute top-[1808px] left-[256px] text-16xl inline-block text-gray-500 text-center w-[493px] h-[118px]">
           VR Meditation Space
@@ -254,12 +254,12 @@ const MacBookPro148 = () => {
           Premier League Predictor
         </b>
         <b className="absolute top-[536px] left-[990px] inline-block w-[539px] h-[173px]">
-          Developed proprietary search engine and implemented embedding
-          techniques and pageRank algorithms to allow dta engineers to search
-          for and access company databases.
+        Worked on Reviews Platform to aggregate data across third-party sites such as Yelp, Google, Facebook, etc.
         </b>
         <b className="absolute top-[1111px] left-[189px] inline-block w-[414px] h-[173px]">
-         Worked on Reviews Platform to aggregate data across third-party sites such as Yelp, Google, Facebook, etc.
+         Developed proprietary search engine and implemented embedding
+          techniques and pageRank algorithms to allow dta engineers to search
+          for and access company databases.
         </b>
         
       </div>
