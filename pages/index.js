@@ -34,8 +34,9 @@ const MacBookPro148 = () => {
   }, []);
 
   return (
+    //Entire website Object
     <div
-      className="relative bg-white w-full h-[9489px] overflow-hidden [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1] text-left text-34xl text-black font-outfit lg:w-[1512px]"
+      className="relative bg-white w-100% h-[9489px] overflow-hidden [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1] text-left text-34xl text-black font-outfit lg:w-[1512px]"
       data-animate-on-scroll
     >
       <img
@@ -135,10 +136,10 @@ const MacBookPro148 = () => {
         src="/frame.svg"
       />
       
-      <div className="absolute top-[3264px] left-[-75px] w-[1884px] h-[12768px] overflow-hidden text-11xl text-gray-600 font-dm-sans">
-        <div className="absolute top-[2433px] left-[75px] bg-gray-200 w-[1512px] h-[9988px]" />
-        <div className="absolute top-[0px] left-[75px] bg-gainsboro-300 w-[1512px] h-[1433px]" />
-        <div className="absolute top-[4288px] left-[75px] bg-black w-[1512px] h-[3572]" />
+      <div className="absolute top-[3264px] left-[-75px] w-[100%] h-[12768px] overflow-hidden text-11xl text-gray-600 font-dm-sans">
+        <div className="absolute top-[2433px] left-[75px] bg-gray-200 w-[100%] h-[9988px]" />
+        <div className="absolute top-[0px] left-[75px] bg-gainsboro-300 w-[100%] h-[1433px]" />
+        <div className="absolute top-[4288px] left-[75px] bg-black w-[100%] h-[3572]" />
         <div className="absolute top-[4616px] left-[20vw] text-[10vw] font-semibold font-outfit text-white inline-block w-[1059px] h-[749px]">
           Let’s Connect
         </div>
@@ -277,7 +278,7 @@ const MacBookPro148 = () => {
         </b>
         
       </div>
-      <div className="absolute top-[1424px] left-[0px] bg-midnightblue w-[1515px] h-[376px] overflow-hidden text-center text-29xl text-whitesmoke font-roboto">
+      <div className="absolute top-[1424px] left-[0px] bg-midnightblue w-[100%] h-[376px] overflow-hidden text-center text-29xl text-whitesmoke font-roboto">
         <img
           className="absolute top-[91px] left-[46px] w-[259px] h-[194px] object-cover hidden"
           alt=""
