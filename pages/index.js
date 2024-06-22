@@ -206,7 +206,7 @@ const MacBookPro148 = () => {
           fill
         />
        </div>
-        <a href = "https://github.com/markghat/VRMeditationSpace"
+        <a href = "https://devpost.com/software/nurse-alert-d4cuha "
         target="_blank">
         <img
           className="absolute top-[1744px] left-[692px] rounded-11xl w-[861px] h-[419px] object-cover"
