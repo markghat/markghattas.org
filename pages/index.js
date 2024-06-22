@@ -148,8 +148,8 @@ const MacBookPro148 = () => {
         
         <div
           className="[text-decoration:none] absolute top-[3796px] left-[31vw] text-[5vw] font-semibold font-outfit text-white inline-block w-[9vw] h-[9vh] transition-transform transition-color transform hover:scale-110 hover:text-blue-500"
-          href="mailto:markag121@gmail.com"
         >
+          <a href="mailto:markag121@gmail.com">
           Email
           
           <img
@@ -157,21 +157,23 @@ const MacBookPro148 = () => {
     alt=""
     src="/email.png"
   />
+  </a>
         </div>
 
         {/*Linkedin*/}
         <div className="relative">
   <div
     className="[text-decoration:none] absolute top-[3653px] left-[31vw] text-[5vw] font-semibold font-outfit text-white inline-block w-[9vw] h-[9vh] transition-transform transition-color transform hover:scale-110 hover:text-blue-500"
-    href="http://www.linkedin.com/in/markghat"
     target="_blank"
   >
+    <a href="http://www.linkedin.com/in/markghat">
     Linkedin
     <img
     className="absolute top-[-10px] right-[11vw]"
     alt=""
     src="/linkedin2.svg"
   />
+  </a>
   </div>
 
   
