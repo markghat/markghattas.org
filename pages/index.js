@@ -110,7 +110,7 @@ const MacBookPro148 = () => {
 
         {/*Resume Button*/} 
         </a>
-        <a href="https://drive.google.com/file/d/1Tg-KL-m9YDApqOHnh0bt0iWhePnGcyA9/view?usp=sharing"
+        <a href="https://drive.google.com/file/d/1KHAOHRB3QiywofVk6FeOYsJQjBDIUFFE/view?usp=drive_link"
         target="_blank">
         <img
           className="absolute top-[558px] left-[341.85px] w-[218.29px] h-[204px]"
