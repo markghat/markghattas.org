@@ -206,7 +206,7 @@ const MacBookPro148 = () => {
           fill
         />
        </div>
-        <a href = "https://devpost.com/software/nurse-alert-d4cuha "
+        <a href = "https://github.com/markghat/VRMeditationSpace"
         target="_blank">
         <img
           className="absolute top-[1744px] left-[692px] rounded-11xl w-[861px] h-[419px] object-cover"
@@ -223,7 +223,7 @@ const MacBookPro148 = () => {
         />
         </a>
         
-        <div className="absolute top-[1796px] left-[231px] rounded-11xl bg-thistle w-[535px] h-[316px]" />
+        <div className="absolute top-[1796px] left-[231px] rounded-11xl bg-gainsboro-200 w-[535px] h-[316px]" />
         <b className="absolute top-[1867px] left-[289px] inline-block text-center w-[414px] h-[173px]">
           Fllstack iOS app for hospitals to classify severity of patient requests, store in database, and send SMS to nurse
         </b>
