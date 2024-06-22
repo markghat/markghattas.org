@@ -211,7 +211,7 @@ const MacBookPro148 = () => {
         <img
           className="absolute top-[1744px] left-[692px] rounded-11xl w-[861px] h-[419px] object-cover"
           alt=""
-          src="/NurseAlert.jpg"
+          src="/nurseAlert.jpg"
         />
         </a>
         <a href = "https://github.com/markghat/PLPredictor"
