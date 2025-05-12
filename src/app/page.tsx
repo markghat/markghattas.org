@@ -139,12 +139,12 @@ export default function Home() {
                     }}
                     transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY, repeatType: "reverse" }}
                   >
-                    <span className="text-sky-500 text-4xl font-bold">Project 1</span>
+                    <span className="text-sky-500 text-4xl font-bold">Auxiom AI</span>
                   </motion.div>
                   <CardContent className="p-6">
-                    <h3 className="text-xl font-semibold mb-2">Project Name</h3>
+                    <h3 className="text-xl font-semibold mb-2">Auxiom AI</h3>
                     <p className="text-gray-600 mb-4">
-                      A brief description of the project, technologies used, and the problem it solves.
+                     Co-founder / CTO
                     </p>
                     <Link
                       href="#"
@@ -176,12 +176,12 @@ export default function Home() {
                     }}
                     transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY, repeatType: "reverse" }}
                   >
-                    <span className="text-orange-500 text-4xl font-bold">Project 2</span>
+                    <span className="text-orange-500 text-4xl font-bold">Google</span>
                   </motion.div>
                   <CardContent className="p-6">
-                    <h3 className="text-xl font-semibold mb-2">Project Name</h3>
+                    <h3 className="text-xl font-semibold mb-2">Google</h3>
                     <p className="text-gray-600 mb-4">
-                      A brief description of the project, technologies used, and the problem it solves.
+                      SWE Intern, Google Cloud
                     </p>
                     <Link
                       href="#"
@@ -213,12 +213,49 @@ export default function Home() {
                     }}
                     transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY, repeatType: "reverse" }}
                   >
-                    <span className="text-purple-500 text-4xl font-bold">Project 3</span>
+                    <span className="text-purple-500 text-4xl font-bold">Yext</span>
                   </motion.div>
                   <CardContent className="p-6">
-                    <h3 className="text-xl font-semibold mb-2">Project Name</h3>
+                    <h3 className="text-xl font-semibold mb-2">Yext</h3>
                     <p className="text-gray-600 mb-4">
-                      A brief description of the project, technologies used, and the problem it solves.
+                      SWE Intern, Reviews
+                    </p>
+                    <Link
+                      href="#"
+                      className="text-sky-600 font-medium inline-flex items-center hover:text-sky-800 group"
+                    >
+                      View Project{" "}
+                      <motion.span
+                        className="ml-1"
+                        initial={{ x: 0 }}
+                        whileHover={{ x: 5 }}
+                        transition={{ duration: 0.2 }}
+                      >
+                        <ArrowRight className="h-4 w-4" />
+                      </motion.span>
+                    </Link>
+                  </CardContent>
+                </Card>
+              </HoverCard>
+            </ScrollFade>
+
+            {/* Project 4 */}
+            <ScrollFade delay={0.4}>
+              <HoverCard>
+                <Card className="overflow-hidden border-0 shadow-md hover:shadow-xl transition-shadow h-full">
+                  <motion.div
+                    className="h-48 bg-gradient-to-r from-green-100 to-green-200 flex items-center justify-center"
+                    whileHover={{
+                      backgroundPosition: ["0% 0%", "100% 100%"],
+                    }}
+                    transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY, repeatType: "reverse" }}
+                  >
+                    <span className="text-green-500 text-4xl font-bold">Fidelity Investments</span>
+                  </motion.div>
+                  <CardContent className="p-6">
+                    <h3 className="text-xl font-semibold mb-2">Fidelity Investments</h3>
+                    <p className="text-gray-600 mb-4">
+                      SWE Intern, Data Architecture
                     </p>
                     <Link
                       href="#"
