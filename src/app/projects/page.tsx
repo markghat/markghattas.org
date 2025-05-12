@@ -12,7 +12,7 @@ export default function ProjectsPage() {
         "A detailed description of the first project, including the technologies used, challenges faced, and solutions implemented.",
       image: "/placeholder.svg?height=400&width=600",
       tags: ["React", "TypeScript", "Node.js", "MongoDB"],
-      github: "https://github.com/markghattas",
+      github: "https://github.com/markghat",
       demo: "#",
     },
     {
@@ -22,7 +22,7 @@ export default function ProjectsPage() {
         "A detailed description of the second project, including the technologies used, challenges faced, and solutions implemented.",
       image: "/placeholder.svg?height=400&width=600",
       tags: ["Next.js", "Tailwind CSS", "Supabase"],
-      github: "https://github.com/markghattas",
+      github: "https://github.com/markghat",
       demo: "#",
     },
     {
@@ -32,7 +32,7 @@ export default function ProjectsPage() {
         "A detailed description of the third project, including the technologies used, challenges faced, and solutions implemented.",
       image: "/placeholder.svg?height=400&width=600",
       tags: ["Python", "Django", "PostgreSQL", "Docker"],
-      github: "https://github.com/markghattas",
+      github: "https://github.com/markghat",
       demo: "#",
     },
   ]

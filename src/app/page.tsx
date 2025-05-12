@@ -78,7 +78,7 @@ export default function Home() {
                   transition={{ duration: 0.3 }}
                 >
                   <Image
-                    src="/placeholder.svg?height=250&width=250"
+                    src="/pfp.jpg"
                     alt="Profile Image"
                     width={250}
                     height={250}
@@ -472,7 +472,7 @@ export default function Home() {
               </p>
             </ScrollFade>
             <ScrollFade delay={0.4}>
-              <Link href="mailto:contact@markghattas.org">
+              <Link href="mailto:markag121@gmail.com">
                 <AnimatedButton size="lg" className="gap-2 rounded-full">
                   <Mail className="h-5 w-5" />
                   <span>contact@markghattas.org</span>
@@ -495,14 +495,14 @@ export default function Home() {
             </FadeIn>
             <StaggerChildren className="flex gap-4">
               <StaggerItem>
-                <Link href="https://www.linkedin.com/in/markghattas/" target="_blank" rel="noopener noreferrer">
+                <Link href="https://www.linkedin.com/in/markghat/" target="_blank" rel="noopener noreferrer">
                   <motion.div whileHover={{ y: -3, color: "#0ea5e9" }} transition={{ duration: 0.2 }}>
                     <Linkedin className="h-5 w-5 text-gray-600 transition-colors" />
                   </motion.div>
                 </Link>
               </StaggerItem>
               <StaggerItem>
-                <Link href="https://github.com/markghattas" target="_blank" rel="noopener noreferrer">
+                <Link href="https://github.com/markghat" target="_blank" rel="noopener noreferrer">
                   <motion.div whileHover={{ y: -3, color: "#0ea5e9" }} transition={{ duration: 0.2 }}>
                     <Github className="h-5 w-5 text-gray-600 transition-colors" />
                   </motion.div>
@@ -516,7 +516,7 @@ export default function Home() {
                 </Link>
               </StaggerItem>
               <StaggerItem>
-                <Link href="mailto:contact@markghattas.org">
+                <Link href="mailto:markag121@gmail.com">
                   <motion.div whileHover={{ y: -3, color: "#0ea5e9" }} transition={{ duration: 0.2 }}>
                     <Mail className="h-5 w-5 text-gray-600 transition-colors" />
                   </motion.div>

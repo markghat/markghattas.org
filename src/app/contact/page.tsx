@@ -155,7 +155,7 @@ export default function ContactPage() {
                     <Mail className="h-5 w-5 text-sky-600 mt-1 mr-3" />
                     <div>
                       <h3 className="font-medium">Email</h3>
-                      <a href="mailto:contact@markghattas.org" className="text-sky-600 hover:text-sky-800">
+                      <a href="mailto:markag121@gmail.com" className="text-sky-600 hover:text-sky-800">
                         contact@markghattas.org
                       </a>
                     </div>
@@ -165,12 +165,12 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-medium">LinkedIn</h3>
                       <a
-                        href="https://www.linkedin.com/in/markghattas/"
+                        href="https://www.linkedin.com/in/markghat/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-sky-600 hover:text-sky-800"
                       >
-                        linkedin.com/in/markghattas
+                        linkedin.com/in/markghat
                       </a>
                     </div>
                   </div>
@@ -179,12 +179,12 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-medium">GitHub</h3>
                       <a
-                        href="https://github.com/markghattas"
+                        href="https://github.com/markghat"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-sky-600 hover:text-sky-800"
                       >
-                        github.com/markghattas
+                        github.com/markghat
                       </a>
                     </div>
                   </div>
