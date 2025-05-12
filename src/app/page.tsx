@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 import Link from "next/link"
-import { Github, Linkedin, FileText, Mail, ArrowRight } from "lucide-react"
+import { Github, Linkedin, FileText, Mail, ArrowRight, GraduationCap, Calendar, Award } from "lucide-react"
 import { Card, CardContent } from "../components/ui/card"
 import { FadeIn } from "../components/animations/fade-in"
 import { ScrollFade } from "../components/animations/scroll-fade"
@@ -91,195 +91,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* About Section */}
-      <section className="bg-gray-50 py-16 md:py-24" id="about">
-        <div className="container mx-auto px-4">
-          <ScrollFade>
-            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">About Me</h2>
-          </ScrollFade>
-          <div className="max-w-3xl mx-auto">
-            <ScrollFade delay={0.2}>
-              <p className="text-lg text-gray-700 mb-6">
-                I'm a software engineer with expertise in building web applications and services. My passion lies in
-                creating elegant solutions to complex problems and continuously learning new technologies.
-              </p>
-            </ScrollFade>
-            <ScrollFade delay={0.3}>
-              <p className="text-lg text-gray-700 mb-6">
-                With experience across the full stack, I enjoy working on everything from frontend interfaces to backend
-                systems and infrastructure. I'm particularly interested in cloud technologies, performance optimization,
-                and creating intuitive user experiences.
-              </p>
-            </ScrollFade>
-            <ScrollFade delay={0.4}>
-              <p className="text-lg text-gray-700">
-                When I'm not coding, you can find me exploring new technologies, contributing to open source projects,
-                or enjoying outdoor activities.
-              </p>
-            </ScrollFade>
-          </div>
-        </div>
-      </section>
-
-      {/* Projects Section */}
-      <section className="py-16 md:py-24" id="projects">
-        <div className="container mx-auto px-4">
-          <ScrollFade>
-            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Featured Projects</h2>
-          </ScrollFade>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Project 1 */}
-            <ScrollFade delay={0.1}>
-              <HoverCard>
-                <Card className="overflow-hidden border-0 shadow-md hover:shadow-xl transition-shadow h-full">
-                  <motion.div
-                    className="h-48 bg-gradient-to-r from-sky-100 to-sky-200 flex items-center justify-center"
-                    whileHover={{
-                      backgroundPosition: ["0% 0%", "100% 100%"],
-                    }}
-                    transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY, repeatType: "reverse" }}
-                  >
-                    <span className="text-sky-500 text-4xl font-bold">Auxiom AI</span>
-                  </motion.div>
-                  <CardContent className="p-6">
-                    <h3 className="text-xl font-semibold mb-2">Auxiom AI</h3>
-                    <p className="text-gray-600 mb-4">
-                     Co-founder / CTO
-                    </p>
-                    <Link
-                      href="#"
-                      className="text-sky-600 font-medium inline-flex items-center hover:text-sky-800 group"
-                    >
-                      View Project{" "}
-                      <motion.span
-                        className="ml-1"
-                        initial={{ x: 0 }}
-                        whileHover={{ x: 5 }}
-                        transition={{ duration: 0.2 }}
-                      >
-                        <ArrowRight className="h-4 w-4" />
-                      </motion.span>
-                    </Link>
-                  </CardContent>
-                </Card>
-              </HoverCard>
-            </ScrollFade>
-
-            {/* Project 2 */}
-            <ScrollFade delay={0.2}>
-              <HoverCard>
-                <Card className="overflow-hidden border-0 shadow-md hover:shadow-xl transition-shadow h-full">
-                  <motion.div
-                    className="h-48 bg-gradient-to-r from-orange-100 to-orange-200 flex items-center justify-center"
-                    whileHover={{
-                      backgroundPosition: ["0% 0%", "100% 100%"],
-                    }}
-                    transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY, repeatType: "reverse" }}
-                  >
-                    <span className="text-orange-500 text-4xl font-bold">Google</span>
-                  </motion.div>
-                  <CardContent className="p-6">
-                    <h3 className="text-xl font-semibold mb-2">Google</h3>
-                    <p className="text-gray-600 mb-4">
-                      SWE Intern, Google Cloud
-                    </p>
-                    <Link
-                      href="#"
-                      className="text-sky-600 font-medium inline-flex items-center hover:text-sky-800 group"
-                    >
-                      View Project{" "}
-                      <motion.span
-                        className="ml-1"
-                        initial={{ x: 0 }}
-                        whileHover={{ x: 5 }}
-                        transition={{ duration: 0.2 }}
-                      >
-                        <ArrowRight className="h-4 w-4" />
-                      </motion.span>
-                    </Link>
-                  </CardContent>
-                </Card>
-              </HoverCard>
-            </ScrollFade>
-
-            {/* Project 3 */}
-            <ScrollFade delay={0.3}>
-              <HoverCard>
-                <Card className="overflow-hidden border-0 shadow-md hover:shadow-xl transition-shadow h-full">
-                  <motion.div
-                    className="h-48 bg-gradient-to-r from-purple-100 to-purple-200 flex items-center justify-center"
-                    whileHover={{
-                      backgroundPosition: ["0% 0%", "100% 100%"],
-                    }}
-                    transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY, repeatType: "reverse" }}
-                  >
-                    <span className="text-purple-500 text-4xl font-bold">Yext</span>
-                  </motion.div>
-                  <CardContent className="p-6">
-                    <h3 className="text-xl font-semibold mb-2">Yext</h3>
-                    <p className="text-gray-600 mb-4">
-                      SWE Intern, Reviews
-                    </p>
-                    <Link
-                      href="#"
-                      className="text-sky-600 font-medium inline-flex items-center hover:text-sky-800 group"
-                    >
-                      View Project{" "}
-                      <motion.span
-                        className="ml-1"
-                        initial={{ x: 0 }}
-                        whileHover={{ x: 5 }}
-                        transition={{ duration: 0.2 }}
-                      >
-                        <ArrowRight className="h-4 w-4" />
-                      </motion.span>
-                    </Link>
-                  </CardContent>
-                </Card>
-              </HoverCard>
-            </ScrollFade>
-
-            {/* Project 4 */}
-            <ScrollFade delay={0.4}>
-              <HoverCard>
-                <Card className="overflow-hidden border-0 shadow-md hover:shadow-xl transition-shadow h-full">
-                  <motion.div
-                    className="h-48 bg-gradient-to-r from-green-100 to-green-200 flex items-center justify-center"
-                    whileHover={{
-                      backgroundPosition: ["0% 0%", "100% 100%"],
-                    }}
-                    transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY, repeatType: "reverse" }}
-                  >
-                    <span className="text-green-500 text-4xl font-bold">Fidelity Investments</span>
-                  </motion.div>
-                  <CardContent className="p-6">
-                    <h3 className="text-xl font-semibold mb-2">Fidelity Investments</h3>
-                    <p className="text-gray-600 mb-4">
-                      SWE Intern, Data Architecture
-                    </p>
-                    <Link
-                      href="#"
-                      className="text-sky-600 font-medium inline-flex items-center hover:text-sky-800 group"
-                    >
-                      View Project{" "}
-                      <motion.span
-                        className="ml-1"
-                        initial={{ x: 0 }}
-                        whileHover={{ x: 5 }}
-                        transition={{ duration: 0.2 }}
-                      >
-                        <ArrowRight className="h-4 w-4" />
-                      </motion.span>
-                    </Link>
-                  </CardContent>
-                </Card>
-              </HoverCard>
-            </ScrollFade>
-          </div>
-        </div>
-      </section>
-
-      {/* Skills Section */}
+   
+ {/* Skills Section */}
       <section className="bg-gray-50 py-16 md:py-24" id="skills">
         <div className="container mx-auto px-4">
           <ScrollFade>
@@ -492,6 +305,273 @@ export default function Home() {
                 </StaggerChildren>
               </motion.div>
             </ScrollFade>
+          </div>
+        </div>
+      </section>
+
+      {/* Projects Section */}
+      <section className="py-16 md:py-24" id="projects">
+        <div className="container mx-auto px-4">
+          <ScrollFade>
+            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Featured Projects</h2>
+          </ScrollFade>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Project 1 */}
+            <ScrollFade delay={0.1}>
+              <HoverCard>
+                <Card className="overflow-hidden border-0 shadow-md hover:shadow-xl transition-shadow h-full">
+                  <motion.div
+                    className="h-48 bg-gradient-to-r from-sky-100 to-sky-200 flex items-center justify-center"
+                    whileHover={{
+                      backgroundPosition: ["0% 0%", "100% 100%"],
+                    }}
+                    transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY, repeatType: "reverse" }}
+                  >
+                    <span className="text-sky-500 text-4xl font-bold">Auxiom AI</span>
+                  </motion.div>
+                  <CardContent className="p-6">
+                    <h3 className="text-xl font-semibold mb-2">Auxiom AI</h3>
+                    <p className="text-gray-600 mb-4">
+                     Co-founder / CTO
+                    </p>
+                    <Link
+                      href="#"
+                      className="text-sky-600 font-medium inline-flex items-center hover:text-sky-800 group"
+                    >
+                      View Project{" "}
+                      <motion.span
+                        className="ml-1"
+                        initial={{ x: 0 }}
+                        whileHover={{ x: 5 }}
+                        transition={{ duration: 0.2 }}
+                      >
+                        <ArrowRight className="h-4 w-4" />
+                      </motion.span>
+                    </Link>
+                  </CardContent>
+                </Card>
+              </HoverCard>
+            </ScrollFade>
+
+            {/* Project 2 */}
+            <ScrollFade delay={0.2}>
+              <HoverCard>
+                <Card className="overflow-hidden border-0 shadow-md hover:shadow-xl transition-shadow h-full">
+                  <motion.div
+                    className="h-48 bg-gradient-to-r from-orange-100 to-orange-200 flex items-center justify-center"
+                    whileHover={{
+                      backgroundPosition: ["0% 0%", "100% 100%"],
+                    }}
+                    transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY, repeatType: "reverse" }}
+                  >
+                    <span className="text-orange-500 text-4xl font-bold">Google</span>
+                  </motion.div>
+                  <CardContent className="p-6">
+                    <h3 className="text-xl font-semibold mb-2">Google</h3>
+                    <p className="text-gray-600 mb-4">
+                      SWE Intern, Google Cloud
+                    </p>
+                    <Link
+                      href="#"
+                      className="text-sky-600 font-medium inline-flex items-center hover:text-sky-800 group"
+                    >
+                      View Project{" "}
+                      <motion.span
+                        className="ml-1"
+                        initial={{ x: 0 }}
+                        whileHover={{ x: 5 }}
+                        transition={{ duration: 0.2 }}
+                      >
+                        <ArrowRight className="h-4 w-4" />
+                      </motion.span>
+                    </Link>
+                  </CardContent>
+                </Card>
+              </HoverCard>
+            </ScrollFade>
+
+            {/* Project 3 */}
+            <ScrollFade delay={0.3}>
+              <HoverCard>
+                <Card className="overflow-hidden border-0 shadow-md hover:shadow-xl transition-shadow h-full">
+                  <motion.div
+                    className="h-48 bg-gradient-to-r from-purple-100 to-purple-200 flex items-center justify-center"
+                    whileHover={{
+                      backgroundPosition: ["0% 0%", "100% 100%"],
+                    }}
+                    transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY, repeatType: "reverse" }}
+                  >
+                    <span className="text-purple-500 text-4xl font-bold">Yext</span>
+                  </motion.div>
+                  <CardContent className="p-6">
+                    <h3 className="text-xl font-semibold mb-2">Yext</h3>
+                    <p className="text-gray-600 mb-4">
+                      SWE Intern, Reviews
+                    </p>
+                    <Link
+                      href="#"
+                      className="text-sky-600 font-medium inline-flex items-center hover:text-sky-800 group"
+                    >
+                      View Project{" "}
+                      <motion.span
+                        className="ml-1"
+                        initial={{ x: 0 }}
+                        whileHover={{ x: 5 }}
+                        transition={{ duration: 0.2 }}
+                      >
+                        <ArrowRight className="h-4 w-4" />
+                      </motion.span>
+                    </Link>
+                  </CardContent>
+                </Card>
+              </HoverCard>
+            </ScrollFade>
+
+            {/* Project 4 */}
+            <ScrollFade delay={0.4}>
+              <HoverCard>
+                <Card className="overflow-hidden border-0 shadow-md hover:shadow-xl transition-shadow h-full">
+                  <motion.div
+                    className="h-48 bg-gradient-to-r from-green-100 to-green-200 flex items-center justify-center"
+                    whileHover={{
+                      backgroundPosition: ["0% 0%", "100% 100%"],
+                    }}
+                    transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY, repeatType: "reverse" }}
+                  >
+                    <span className="text-green-500 text-4xl font-bold">Fidelity Investments</span>
+                  </motion.div>
+                  <CardContent className="p-6">
+                    <h3 className="text-xl font-semibold mb-2">Fidelity Investments</h3>
+                    <p className="text-gray-600 mb-4">
+                      SWE Intern, Data Architecture
+                    </p>
+                    <Link
+                      href="#"
+                      className="text-sky-600 font-medium inline-flex items-center hover:text-sky-800 group"
+                    >
+                      View Project{" "}
+                      <motion.span
+                        className="ml-1"
+                        initial={{ x: 0 }}
+                        whileHover={{ x: 5 }}
+                        transition={{ duration: 0.2 }}
+                      >
+                        <ArrowRight className="h-4 w-4" />
+                      </motion.span>
+                    </Link>
+                  </CardContent>
+                </Card>
+              </HoverCard>
+            </ScrollFade>
+          </div>
+        </div>
+      </section>
+
+     
+ {/* Education Section */}
+      <section className="bg-gray-50 py-16 md:py-24" id="education">
+        <div className="container mx-auto px-4">
+          <ScrollFade>
+            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Education</h2>
+          </ScrollFade>
+
+          <div className="max-w-3xl mx-auto">
+            <ScrollFade>
+              <motion.div
+                className="bg-white rounded-xl shadow-md p-8 mb-8"
+                whileHover={{ y: -5 }}
+                transition={{ duration: 0.3 }}
+              >
+                <div className="flex items-start gap-4">
+                  <div className="mt-1">
+                    <motion.div
+                      animate={{ rotate: [0, 5, 0, -5, 0] }}
+                      transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY, repeatType: "reverse" }}
+                    >
+                      <GraduationCap className="h-8 w-8 text-sky-600" />
+                    </motion.div>
+                  </div>
+                  <div>
+                    <h3 className="text-2xl font-bold text-gray-800">
+                      B.S. in Computer Science & Statistics
+                    </h3>
+                    <h4 className="text-xl font-bold text-gray-800">
+                      Minor: Mathematics
+                    </h4>
+                    <p className="text-xl text-gray-700 mt-1">Duke University</p>
+
+                    <div className="flex items-center mt-4 text-gray-600">
+                      <Calendar className="h-5 w-5 mr-2" />
+                      <span>2022 – 2026</span>
+                    </div>
+
+                    <div className="mt-6">
+                      <div className="flex items-center mb-3">
+                        <Award className="h-5 w-5 text-sky-600 mr-2" />
+                        <span className="font-semibold text-gray-800">Relevant Coursework:</span>
+                      </div>
+
+                      <StaggerChildren staggerDelay={0.05} className="ml-7">
+                        <ul className="list-disc space-y-2">
+                          <StaggerItem>
+                            <motion.li whileHover={{ x: 5 }} transition={{ duration: 0.2 }} className="text-gray-700">
+                              Advanced Algorithm Analysis
+                            </motion.li>
+                          </StaggerItem>
+                          <StaggerItem>
+                            <motion.li whileHover={{ x: 5 }} transition={{ duration: 0.2 }} className="text-gray-700">
+                              Database Systems
+                            </motion.li>
+                          </StaggerItem>
+                          <StaggerItem>
+                            <motion.li whileHover={{ x: 5 }} transition={{ duration: 0.2 }} className="text-gray-700">
+                              Machine Learning
+                            </motion.li>
+                          </StaggerItem>
+                              <StaggerItem>
+                            <motion.li whileHover={{ x: 5 }} transition={{ duration: 0.2 }} className="text-gray-700">
+                              Computer Architecture
+                            </motion.li>
+                          </StaggerItem>
+                          <StaggerItem>
+                            <motion.li whileHover={{ x: 5 }} transition={{ duration: 0.2 }} className="text-gray-700">
+                              Constructing Virtual Realities
+                            </motion.li>
+                          </StaggerItem>
+                          <StaggerItem>
+                            <motion.li whileHover={{ x: 5 }} transition={{ duration: 0.2 }} className="text-gray-700">
+                              Mathematics of Regression
+                            </motion.li>
+                          </StaggerItem>
+                          <StaggerItem>
+                            <motion.li whileHover={{ x: 5 }} transition={{ duration: 0.2 }} className="text-gray-700">
+                              Bayesian Statistics
+                            </motion.li>
+                          </StaggerItem>
+                          <StaggerItem>
+                            <motion.li whileHover={{ x: 5 }} transition={{ duration: 0.2 }} className="text-gray-700">
+                              Probability
+                            </motion.li>
+                          </StaggerItem>
+                          <StaggerItem>
+                            <motion.li whileHover={{ x: 5 }} transition={{ duration: 0.2 }} className="text-gray-700">
+                              Linear Algebra
+                            </motion.li>
+                          </StaggerItem>
+                          <StaggerItem>
+                            <motion.li whileHover={{ x: 5 }} transition={{ duration: 0.2 }} className="text-gray-700">
+                              Multivariable Calculus
+                            </motion.li>
+                          </StaggerItem>
+                        </ul>
+                      </StaggerChildren>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+            </ScrollFade>
+
+            {/* You can add more education entries here if needed */}
           </div>
         </div>
       </section>
