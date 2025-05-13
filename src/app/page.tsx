@@ -90,7 +90,7 @@ export default function Home() {
             </FadeIn>
             <FadeIn delay={0.6}>
               <p className="text-xl text-gray-700 mb-8 max-w-xl">
-                Software engineer and technology enthusiast passionate about building innovative solutions.
+                Software engineer and Duke student passionate about building innovative solutions.
               </p>
             </FadeIn>
             <StaggerChildren delay={0.8} className="flex flex-wrap gap-4">
