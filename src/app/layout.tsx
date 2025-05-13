@@ -10,6 +10,10 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Mark Ghattas | Software Engineer",
   description: "Personal website of Mark Ghattas, software engineer and technology enthusiast.",
+    icons: {
+    icon: "/logo.png",
+    apple: "/logo.png",
+  },
 }
 
 export default function RootLayout({
