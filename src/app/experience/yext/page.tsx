@@ -29,7 +29,7 @@ export default function YextExperiencePage() {
                 transition={{ duration: 0.5 }}
               >
                 <Image
-                  src="/placeholder.svg?height=120&width=120"
+                  src="/yextlogo.png"
                   alt="Yext Logo"
                   width={120}
                   height={120}
@@ -59,7 +59,7 @@ export default function YextExperiencePage() {
               <div className="flex flex-wrap gap-4">
                 <div className="flex items-center text-gray-600">
                   <Calendar className="h-5 w-5 mr-2" />
-                  <span>May 2022 - August 2022</span>
+                  <span>May 2024 - August 2024</span>
                 </div>
                 <div className="flex items-center text-gray-600">
                   <MapPin className="h-5 w-5 mr-2" />

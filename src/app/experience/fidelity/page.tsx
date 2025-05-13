@@ -29,7 +29,7 @@ export default function FidelityExperiencePage() {
                 transition={{ duration: 0.5 }}
               >
                 <Image
-                  src="/placeholder.svg?height=120&width=120"
+                  src="/fidelitylogo.png"
                   alt="Fidelity Investments Logo"
                   width={120}
                   height={120}
@@ -59,11 +59,11 @@ export default function FidelityExperiencePage() {
               <div className="flex flex-wrap gap-4">
                 <div className="flex items-center text-gray-600">
                   <Calendar className="h-5 w-5 mr-2" />
-                  <span>May 2021 - August 2021</span>
+                  <span>May 2023 - August 2023</span>
                 </div>
                 <div className="flex items-center text-gray-600">
                   <MapPin className="h-5 w-5 mr-2" />
-                  <span>Boston, MA</span>
+                  <span>Durham, NC</span>
                 </div>
               </div>
             </div>

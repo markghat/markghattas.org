@@ -29,7 +29,7 @@ export default function GoogleExperiencePage() {
                 transition={{ duration: 0.5 }}
               >
                 <Image
-                  src="/placeholder.svg?height=120&width=120"
+                  src="/googlelogo.png"
                   alt="Google Logo"
                   width={120}
                   height={120}
@@ -59,11 +59,11 @@ export default function GoogleExperiencePage() {
               <div className="flex flex-wrap gap-4">
                 <div className="flex items-center text-gray-600">
                   <Calendar className="h-5 w-5 mr-2" />
-                  <span>May 2023 - August 2023</span>
+                  <span>May 2025 - August 2025</span>
                 </div>
                 <div className="flex items-center text-gray-600">
                   <MapPin className="h-5 w-5 mr-2" />
-                  <span>Mountain View, CA</span>
+                  <span>Washington D.C.</span>
                 </div>
               </div>
             </div>
