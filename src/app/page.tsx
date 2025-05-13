@@ -385,7 +385,7 @@ export default function Home() {
                       href="https://auxiomai.com"
                       className="text-sky-600 font-medium inline-flex items-center hover:text-sky-800 group"
                     >
-                      View Project{" "}
+                      Learn More{" "}
                       <motion.span
                         className="ml-1"
                         initial={{ x: 0 }}
@@ -422,7 +422,7 @@ export default function Home() {
                       href="#"
                       className="text-sky-600 font-medium inline-flex items-center hover:text-sky-800 group"
                     >
-                      View Project{" "}
+                      Learn More{" "}
                       <motion.span
                         className="ml-1"
                         initial={{ x: 0 }}
@@ -459,7 +459,7 @@ export default function Home() {
                       href="#"
                       className="text-sky-600 font-medium inline-flex items-center hover:text-sky-800 group"
                     >
-                      View Project{" "}
+                      Learn More{" "}
                       <motion.span
                         className="ml-1"
                         initial={{ x: 0 }}
@@ -496,7 +496,81 @@ export default function Home() {
                       href="#"
                       className="text-sky-600 font-medium inline-flex items-center hover:text-sky-800 group"
                     >
-                      View Project{" "}
+                      Learn More{" "}
+                      <motion.span
+                        className="ml-1"
+                        initial={{ x: 0 }}
+                        whileHover={{ x: 5 }}
+                        transition={{ duration: 0.2 }}
+                      >
+                        <ArrowRight className="h-4 w-4" />
+                      </motion.span>
+                    </Link>
+                  </CardContent>
+                </Card>
+              </HoverCard>
+            </ScrollFade>
+
+            {/* Project 5 */}
+            <ScrollFade delay={0.4}>
+              <HoverCard>
+                <Card className="overflow-hidden border-0 shadow-md hover:shadow-xl transition-shadow h-full">
+                  <motion.div
+                    className="h-48 bg-gradient-to-r from-yellow-100 to-yellow-200 flex items-center justify-center"
+                    whileHover={{
+                      backgroundPosition: ["0% 0%", "100% 100%"],
+                    }}
+                    transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY, repeatType: "reverse" }}
+                  >
+                    <span className="text-yellow-500 text-4xl font-bold">Nurse Alert</span>
+                  </motion.div>
+                  <CardContent className="p-6">
+                    <h3 className="text-xl font-semibold mb-2">Nurse Alert</h3>
+                    <p className="text-gray-600 mb-4">
+                      Personal Project
+                    </p>
+                    <Link
+                      href="https://devpost.com/software/nurse-alert-d4cuha"
+                      className="text-sky-600 font-medium inline-flex items-center hover:text-sky-800 group"
+                    >
+                      Learn More{" "}
+                      <motion.span
+                        className="ml-1"
+                        initial={{ x: 0 }}
+                        whileHover={{ x: 5 }}
+                        transition={{ duration: 0.2 }}
+                      >
+                        <ArrowRight className="h-4 w-4" />
+                      </motion.span>
+                    </Link>
+                  </CardContent>
+                </Card>
+              </HoverCard>
+            </ScrollFade>
+
+            {/* Project 6 */}
+            <ScrollFade delay={0.4}>
+              <HoverCard>
+                <Card className="overflow-hidden border-0 shadow-md hover:shadow-xl transition-shadow h-full">
+                  <motion.div
+                    className="h-48 bg-gradient-to-r from-pink-100 to-pink-200 flex items-center justify-center"
+                    whileHover={{
+                      backgroundPosition: ["0% 0%", "100% 100%"],
+                    }}
+                    transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY, repeatType: "reverse" }}
+                  >
+                    <span className="text-pink-500 text-4xl font-bold">Webscribe</span>
+                  </motion.div>
+                  <CardContent className="p-6">
+                    <h3 className="text-xl font-semibold mb-2">Webscribe</h3>
+                    <p className="text-gray-600 mb-4">
+                      Personal Project
+                    </p>
+                    <Link
+                      href="https://devpost.com/software/webscribe"
+                      className="text-sky-600 font-medium inline-flex items-center hover:text-sky-800 group"
+                    >
+                      Learn More{" "}
                       <motion.span
                         className="ml-1"
                         initial={{ x: 0 }}
