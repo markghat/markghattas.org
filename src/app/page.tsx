@@ -27,6 +27,7 @@ import { motion } from "framer-motion"
 import { Input } from "../components/ui/input"
 import { Textarea } from "../components/ui/textarea"
 import { Button } from "../components/ui/button"
+import emailjs from "emailjs-com"
 
 export default function Home() {
   const [formData, setFormData] = useState({
@@ -47,17 +48,32 @@ export default function Home() {
     e.preventDefault()
     setIsSubmitting(true)
 
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500))
+    try {
+      await emailjs.send(
+        "service_2tzb7du", // Replace with your EmailJS service ID
+        "template_8387mwi", // Replace with your EmailJS template ID
+        {
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+        },
+        "w_At7QoAGHg0qNxY-" // Replace with your EmailJS user ID
+      )
 
-    setIsSubmitting(false)
-    setIsSubmitted(true)
-    setFormData({ name: "", email: "", subject: "", message: "" })
+      setIsSubmitted(true)
+      setFormData({ name: "", email: "", subject: "", message: "" })
 
-    // Reset form after 3 seconds
-    setTimeout(() => {
-      setIsSubmitted(false)
-    }, 3000)
+      // Reset form after 3 seconds
+      setTimeout(() => {
+        setIsSubmitted(false)
+      }, 3000)
+    } catch (error) {
+      console.error("Failed to send email:", error)
+      alert("Failed to send email. Please try again later.")
+    } finally {
+      setIsSubmitting(false)
+    }
   }
   return (
     <div className="min-h-screen bg-white">
