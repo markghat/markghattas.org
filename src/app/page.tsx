@@ -1,8 +1,22 @@
 "use client"
 
+import type React from "react"
+import { useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { Github, Linkedin, FileText, Mail, ArrowRight, GraduationCap, Calendar, Award } from "lucide-react"
+import {
+  Github,
+  Linkedin,
+  FileText,
+  Mail,
+  ArrowRight,
+  GraduationCap,
+  Calendar,
+  Award,
+  Phone,
+  MapPin,
+  Send,
+} from "lucide-react"
 import { Card, CardContent } from "../components/ui/card"
 import { FadeIn } from "../components/animations/fade-in"
 import { ScrollFade } from "../components/animations/scroll-fade"
@@ -10,8 +24,41 @@ import { StaggerChildren, StaggerItem } from "../components/animations/stagger-c
 import { HoverCard } from "../components/animations/hover-card"
 import { AnimatedButton } from "../components/ui/animated-button"
 import { motion } from "framer-motion"
+import { Input } from "../components/ui/input"
+import { Textarea } from "../components/ui/textarea"
+import { Button } from "../components/ui/button"
 
 export default function Home() {
+   const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  })
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [isSubmitted, setIsSubmitted] = useState(false)
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target
+    setFormData((prev) => ({ ...prev, [name]: value }))
+  }
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault()
+    setIsSubmitting(true)
+
+    // Simulate form submission
+    await new Promise((resolve) => setTimeout(resolve, 1500))
+
+    setIsSubmitting(false)
+    setIsSubmitted(true)
+    setFormData({ name: "", email: "", subject: "", message: "" })
+
+    // Reset form after 3 seconds
+    setTimeout(() => {
+      setIsSubmitted(false)
+    }, 3000)
+  }
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
@@ -577,24 +624,208 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section className="py-16 md:py-24" id="contact">
+      <section className="py-16 md:py-24 bg-sky-50" id="contact">
         <div className="container mx-auto px-4">
           <ScrollFade>
-            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Get In Touch</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Get in Touch</h2>
           </ScrollFade>
-          <div className="max-w-md mx-auto text-center">
-            <ScrollFade delay={0.2}>
-              <p className="text-lg text-gray-700 mb-8">
-                Interested in working together or have a question? Feel free to reach out!
-              </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            {/* Contact Information */}
+            <ScrollFade delay={0.1}>
+              <motion.div
+                className="bg-white p-8 rounded-xl shadow-md"
+                whileHover={{ y: -5 }}
+                transition={{ duration: 0.3 }}
+              >
+                <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
+
+                <div className="space-y-6">
+                  <motion.div className="flex items-start gap-4" whileHover={{ x: 5 }} transition={{ duration: 0.2 }}>
+                    <div className="mt-1">
+                      <motion.div
+                        animate={{ scale: [1, 1.1, 1] }}
+                        transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY }}
+                        className="text-sky-600"
+                      >
+                        <Mail className="h-6 w-6" />
+                      </motion.div>
+                    </div>
+                    <div>
+                      <a
+                        href="mailto:markag121@gmail.com"
+                        className="text-gray-700 hover:text-sky-600 transition-colors"
+                      >
+                        markag121@gmail.com
+                      </a>
+                    </div>
+                  </motion.div>
+
+                  <motion.div className="flex items-start gap-4" whileHover={{ x: 5 }} transition={{ duration: 0.2 }}>
+                    <div className="mt-1">
+                      <motion.div
+                        animate={{ scale: [1, 1.1, 1] }}
+                        transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY, delay: 0.3 }}
+                        className="text-sky-600"
+                      >
+                        <Phone className="h-6 w-6" />
+                      </motion.div>
+                    </div>
+                    <div>
+                      <a href="tel:+14434843766" className="text-gray-700 hover:text-sky-600 transition-colors">
+                        +1 (443) 484-3766
+                      </a>
+                    </div>
+                  </motion.div>
+
+                  <motion.div className="flex items-start gap-4" whileHover={{ x: 5 }} transition={{ duration: 0.2 }}>
+                    <div className="mt-1">
+                      <motion.div
+                        animate={{ scale: [1, 1.1, 1] }}
+                        transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY, delay: 0.6 }}
+                        className="text-sky-600"
+                      >
+                        <MapPin className="h-6 w-6" />
+                      </motion.div>
+                    </div>
+                    <div>
+                      <span className="text-gray-700">Conowingo, Maryland, USA</span>
+                    </div>
+                  </motion.div>
+                </div>
+
+                <div className="mt-8 pt-8 border-t border-gray-100">
+                  <p className="text-gray-600">
+                    Feel free to reach out! I'm always open to discussing new projects, creative ideas, or opportunities
+                    to be part of your vision.
+                  </p>
+                </div>
+              </motion.div>
             </ScrollFade>
-            <ScrollFade delay={0.4}>
-              <Link href="mailto:markag121@gmail.com">
-                <AnimatedButton size="lg" className="gap-2 rounded-full">
-                  <Mail className="h-5 w-5" />
-                  <span>contact@markghattas.org</span>
-                </AnimatedButton>
-              </Link>
+
+            {/* Contact Form */}
+            <ScrollFade delay={0.3}>
+              <motion.div
+                className="bg-white p-8 rounded-xl shadow-md"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+              >
+                <form onSubmit={handleSubmit} className="space-y-6">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div className="space-y-2">
+                      <label htmlFor="name" className="block text-sm font-medium text-gray-700">
+                        Name
+                      </label>
+                      <motion.div whileHover={{ y: -2 }} transition={{ duration: 0.2 }}>
+                        <Input
+                          id="name"
+                          name="name"
+                          value={formData.name}
+                          onChange={handleChange}
+                          placeholder="Your name"
+                          className="w-full"
+                          required
+                        />
+                      </motion.div>
+                    </div>
+
+                    <div className="space-y-2">
+                      <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+                        Email
+                      </label>
+                      <motion.div whileHover={{ y: -2 }} transition={{ duration: 0.2 }}>
+                        <Input
+                          id="email"
+                          name="email"
+                          type="email"
+                          value={formData.email}
+                          onChange={handleChange}
+                          placeholder="Your email"
+                          className="w-full"
+                          required
+                        />
+                      </motion.div>
+                    </div>
+                  </div>
+
+                  <div className="space-y-2">
+                    <label htmlFor="subject" className="block text-sm font-medium text-gray-700">
+                      Subject
+                    </label>
+                    <motion.div whileHover={{ y: -2 }} transition={{ duration: 0.2 }}>
+                      <Input
+                        id="subject"
+                        name="subject"
+                        value={formData.subject}
+                        onChange={handleChange}
+                        placeholder="Subject"
+                        className="w-full"
+                        required
+                      />
+                    </motion.div>
+                  </div>
+
+                  <div className="space-y-2">
+                    <label htmlFor="message" className="block text-sm font-medium text-gray-700">
+                      Message
+                    </label>
+                    <motion.div whileHover={{ y: -2 }} transition={{ duration: 0.2 }}>
+                      <Textarea
+                        id="message"
+                        name="message"
+                        value={formData.message}
+                        onChange={handleChange}
+                        placeholder="Your message"
+                        rows={6}
+                        className="w-full"
+                        required
+                      />
+                    </motion.div>
+                  </div>
+
+                  <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
+                    <Button
+                      type="submit"
+                      className="w-full bg-sky-600 hover:bg-sky-700 text-white py-3 rounded-md flex items-center justify-center gap-2"
+                      disabled={isSubmitting || isSubmitted}
+                    >
+                      {isSubmitting ? (
+                        <>
+                          <svg
+                            className="animate-spin -ml-1 mr-2 h-4 w-4 text-white"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                          >
+                            <circle
+                              className="opacity-25"
+                              cx="12"
+                              cy="12"
+                              r="10"
+                              stroke="currentColor"
+                              strokeWidth="4"
+                            ></circle>
+                            <path
+                              className="opacity-75"
+                              fill="currentColor"
+                              d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+                            ></path>
+                          </svg>
+                          Sending...
+                        </>
+                      ) : isSubmitted ? (
+                        <>Message Sent!</>
+                      ) : (
+                        <>
+                          <Send className="h-5 w-5" />
+                          Send Message
+                        </>
+                      )}
+                    </Button>
+                  </motion.div>
+                </form>
+              </motion.div>
             </ScrollFade>
           </div>
         </div>
