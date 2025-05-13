@@ -54,15 +54,15 @@ export default function Home() {
 
     try {
       // Initialize EmailJS with your public key
-      emailjs.init("YOUR_PUBLIC_KEY") // Replace with your actual EmailJS public key
+      emailjs.init("w_At7QoAGHg0qNxY-") // Replace with your actual EmailJS public key
 
       // Send the email using EmailJS
       await emailjs.sendForm(
-        "YOUR_SERVICE_ID", // Replace with your EmailJS service ID
-        "YOUR_TEMPLATE_ID", // Replace with your EmailJS template ID
+        "service_2tzb7du", // Replace with your EmailJS service ID
+        "template_8387mwi", // Replace with your EmailJS template ID
         formRef.current!,
-        "YOUR_PUBLIC_KEY", // Replace with your EmailJS public key
-      )
+        {publicKey:"w_At7QoAGHg0qNxY-"} // Replace with your EmailJS public key
+      );
 
       setIsSubmitting(false)
       setIsSubmitted(true)
