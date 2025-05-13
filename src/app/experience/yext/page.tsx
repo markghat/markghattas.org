@@ -122,21 +122,20 @@ export default function YextExperiencePage() {
             <ScrollFade>
               <div className="prose prose-lg max-w-none">
                 <p>
-                  During my internship at Yext, I worked with the Reviews team to enhance the platform's data processing
-                  capabilities and user interface. I collaborated with a team of engineers to improve the efficiency and
-                  user experience of the reviews management system.
+                  During my internship at Yext, I worked with the Reviews Product team to enhance the platform's data
+                  processing capabilities and user interface. I focused on aggregating client review data across
+                  third-party sites and developing new features to improve the review management experience.
                 </p>
 
                 <p>
-                  My primary project focused on optimizing the reviews platform, resulting in a 25% improvement in data
-                  processing efficiency. I also contributed to the development of new features for the customer-facing
-                  dashboard using React and TypeScript.
+                  My primary contributions included designing a customer-facing interface for LLM-generated review
+                  responses using TypeScript and React, and developing APIs and webhooks to add automatic review labels
+                  to the PostgreSQL reviews database.
                 </p>
 
                 <p>
-                  Working at Yext provided me with valuable experience in full-stack development and database
-                  optimization. I gained insights into how businesses manage their online presence and reputation
-                  through customer reviews and feedback.
+                  I also implemented review monitoring maintenance checks using Terraform and Prometheus, enhancing the
+                  reliability and performance of the review monitoring system.
                 </p>
 
                 <div className="my-8 bg-gray-50 p-6 rounded-xl border border-gray-100">
@@ -144,19 +143,25 @@ export default function YextExperiencePage() {
                   <ul className="space-y-2">
                     <li className="flex items-start">
                       <span className="text-purple-500 mr-2">•</span>
-                      <span>Enhanced the reviews platform, improving data processing efficiency by 25%</span>
+                      <span>
+                        Aggregated client review data across third-party sites (Yelp, Google, etc.) for 500+ client
+                        companies using Java
+                      </span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-purple-500 mr-2">•</span>
-                      <span>Built new features using React and TypeScript for the customer-facing dashboard</span>
+                      <span>
+                        Designed customer-facing interface for LLM-generated review response feature using TypeScript
+                        and React
+                      </span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-purple-500 mr-2">•</span>
-                      <span>Optimized database queries, reducing response time for high-traffic endpoints</span>
+                      <span>Developed API and Webhooks to add automatic review labels to PostgreSQL reviews database</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-purple-500 mr-2">•</span>
-                      <span>Participated in code reviews and contributed to team documentation</span>
+                      <span>Developed review monitoring maintenance checks using Terraform and Prometheus</span>
                     </li>
                   </ul>
                 </div>
@@ -168,42 +173,41 @@ export default function YextExperiencePage() {
             <StaggerChildren className="space-y-6">
               <StaggerItem>
                 <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                  <h3 className="text-xl font-semibold mb-3 text-purple-700">Frontend Development</h3>
+                  <h3 className="text-xl font-semibold mb-3 text-purple-700">Data Aggregation</h3>
                   <p className="text-gray-700">
-                    Developed and maintained user interface components for the reviews management dashboard using React
-                    and TypeScript. Implemented responsive designs and improved user experience through intuitive
-                    interactions.
+                    Aggregated client review data across third-party sites including Yelp, Google, and others for over
+                    500 client companies using Java. Ensured data consistency and accuracy across different platforms.
                   </p>
                 </div>
               </StaggerItem>
 
               <StaggerItem>
                 <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                  <h3 className="text-xl font-semibold mb-3 text-purple-700">Backend Optimization</h3>
+                  <h3 className="text-xl font-semibold mb-3 text-purple-700">UI Development</h3>
                   <p className="text-gray-700">
-                    Optimized database queries and API endpoints to improve performance for high-traffic services.
-                    Implemented caching strategies and efficient data processing algorithms to reduce response times.
+                    Designed and implemented a customer-facing interface for LLM-generated review response features
+                    using TypeScript and React. Created intuitive user experiences that simplified the review management
+                    process.
                   </p>
                 </div>
               </StaggerItem>
 
               <StaggerItem>
                 <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                  <h3 className="text-xl font-semibold mb-3 text-purple-700">Feature Implementation</h3>
+                  <h3 className="text-xl font-semibold mb-3 text-purple-700">API Development</h3>
                   <p className="text-gray-700">
-                    Designed and implemented new features for the reviews platform, including enhanced filtering options
-                    and improved analytics visualizations. Collaborated with product managers to ensure features met
-                    user requirements.
+                    Developed APIs and Webhooks to add automatic review labels to PostgreSQL reviews database. Implemented
+                    efficient data processing algorithms to handle large volumes of review data.
                   </p>
                 </div>
               </StaggerItem>
 
               <StaggerItem>
                 <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                  <h3 className="text-xl font-semibold mb-3 text-purple-700">Documentation and Testing</h3>
+                  <h3 className="text-xl font-semibold mb-3 text-purple-700">Monitoring & Maintenance</h3>
                   <p className="text-gray-700">
-                    Created comprehensive documentation for new features and contributed to the team's knowledge base.
-                    Developed unit and integration tests to ensure code quality and prevent regressions.
+                    Developed review monitoring maintenance checks using Terraform and Prometheus. Ensured system
+                    reliability and performance through automated monitoring and alerting.
                   </p>
                 </div>
               </StaggerItem>
@@ -214,43 +218,45 @@ export default function YextExperiencePage() {
             <ScrollFade>
               <div className="space-y-8">
                 <div className="bg-gradient-to-r from-purple-50 to-white p-6 rounded-xl border border-purple-100">
-                  <h3 className="text-xl font-semibold mb-4 text-purple-700">Performance Improvement</h3>
+                  <h3 className="text-xl font-semibold mb-4 text-purple-700">Large-Scale Data Aggregation</h3>
                   <p className="text-gray-700 mb-4">
-                    Improved data processing efficiency by 25% through optimization of database queries and
-                    implementation of more efficient algorithms for reviews analysis.
+                    Successfully aggregated and processed review data for over 500 client companies from multiple
+                    third-party platforms, creating a comprehensive review management system.
                   </p>
                   <div className="bg-white p-4 rounded-lg border border-purple-100">
                     <p className="text-sm text-gray-600 italic">
-                      "Mark's optimization work significantly improved the performance of our reviews platform,
-                      resulting in better user experience and faster data processing." - Engineering Manager
+                      "The data aggregation system Mark developed has significantly improved our ability to provide
+                      clients with comprehensive review insights across multiple platforms." - Engineering Manager
                     </p>
                   </div>
                 </div>
 
                 <div className="bg-gradient-to-r from-purple-50 to-white p-6 rounded-xl border border-purple-100">
-                  <h3 className="text-xl font-semibold mb-4 text-purple-700">UI Enhancement</h3>
+                  <h3 className="text-xl font-semibold mb-4 text-purple-700">
+                    LLM-Generated Review Response Interface
+                  </h3>
                   <p className="text-gray-700 mb-4">
-                    Developed new UI components for the customer dashboard that improved usability and received positive
-                    feedback from clients during beta testing.
+                    Designed and implemented a user-friendly interface for LLM-generated review responses, enhancing
+                    client ability to efficiently manage customer feedback at scale.
                   </p>
                   <div className="bg-white p-4 rounded-lg border border-purple-100">
                     <p className="text-sm text-gray-600 italic">
-                      "The dashboard components Mark developed have made it much easier for our clients to manage and
-                      analyze their reviews data." - Product Manager
+                      "The interface Mark designed for our LLM-generated review responses has received excellent
+                      feedback from clients and has become a key feature of our platform." - Product Manager
                     </p>
                   </div>
                 </div>
 
                 <div className="bg-gradient-to-r from-purple-50 to-white p-6 rounded-xl border border-purple-100">
-                  <h3 className="text-xl font-semibold mb-4 text-purple-700">Technical Documentation</h3>
+                  <h3 className="text-xl font-semibold mb-4 text-purple-700">Automated Review Labeling</h3>
                   <p className="text-gray-700 mb-4">
-                    Created comprehensive technical documentation that was adopted as a standard for the team, improving
-                    knowledge sharing and onboarding processes.
+                    Developed API and Webhook systems for automatic review labeling, significantly reducing the manual
+                    effort required for review categorization and analysis.
                   </p>
                   <div className="bg-white p-4 rounded-lg border border-purple-100">
                     <p className="text-sm text-gray-600 italic">
-                      "Mark's documentation has become a valuable resource for our team and has significantly improved
-                      our onboarding process for new engineers." - Team Lead
+                      "The automated review labeling system has transformed our review management process, making it
+                      much more efficient and accurate." - Team Lead
                     </p>
                   </div>
                 </div>
@@ -274,11 +280,11 @@ export default function YextExperiencePage() {
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 rounded-full bg-purple-500 mr-2"></span>
-                      <span>Redux</span>
+                      <span>JavaScript</span>
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 rounded-full bg-purple-500 mr-2"></span>
-                      <span>CSS/SCSS</span>
+                      <span>HTML/CSS</span>
                     </li>
                   </ul>
                 </div>
@@ -294,15 +300,15 @@ export default function YextExperiencePage() {
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 rounded-full bg-purple-500 mr-2"></span>
-                      <span>Spring Boot</span>
-                    </li>
-                    <li className="flex items-center">
-                      <span className="w-2 h-2 rounded-full bg-purple-500 mr-2"></span>
                       <span>PostgreSQL</span>
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 rounded-full bg-purple-500 mr-2"></span>
                       <span>RESTful APIs</span>
+                    </li>
+                    <li className="flex items-center">
+                      <span className="w-2 h-2 rounded-full bg-purple-500 mr-2"></span>
+                      <span>Webhooks</span>
                     </li>
                   </ul>
                 </div>
@@ -310,19 +316,19 @@ export default function YextExperiencePage() {
 
               <StaggerItem>
                 <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                  <h3 className="text-xl font-semibold mb-3 text-purple-700">Tools & Practices</h3>
+                  <h3 className="text-xl font-semibold mb-3 text-purple-700">Tools & Infrastructure</h3>
                   <ul className="space-y-2">
                     <li className="flex items-center">
                       <span className="w-2 h-2 rounded-full bg-purple-500 mr-2"></span>
+                      <span>Terraform</span>
+                    </li>
+                    <li className="flex items-center">
+                      <span className="w-2 h-2 rounded-full bg-purple-500 mr-2"></span>
+                      <span>Prometheus</span>
+                    </li>
+                    <li className="flex items-center">
+                      <span className="w-2 h-2 rounded-full bg-purple-500 mr-2"></span>
                       <span>Git/GitHub</span>
-                    </li>
-                    <li className="flex items-center">
-                      <span className="w-2 h-2 rounded-full bg-purple-500 mr-2"></span>
-                      <span>Jira</span>
-                    </li>
-                    <li className="flex items-center">
-                      <span className="w-2 h-2 rounded-full bg-purple-500 mr-2"></span>
-                      <span>Agile/Scrum</span>
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 rounded-full bg-purple-500 mr-2"></span>
@@ -334,23 +340,23 @@ export default function YextExperiencePage() {
 
               <StaggerItem>
                 <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                  <h3 className="text-xl font-semibold mb-3 text-purple-700">Testing & Monitoring</h3>
+                  <h3 className="text-xl font-semibold mb-3 text-purple-700">AI & Data</h3>
                   <ul className="space-y-2">
                     <li className="flex items-center">
                       <span className="w-2 h-2 rounded-full bg-purple-500 mr-2"></span>
-                      <span>Jest</span>
+                      <span>LLM Integration</span>
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 rounded-full bg-purple-500 mr-2"></span>
-                      <span>JUnit</span>
+                      <span>Data Aggregation</span>
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 rounded-full bg-purple-500 mr-2"></span>
-                      <span>Datadog</span>
+                      <span>Data Processing</span>
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 rounded-full bg-purple-500 mr-2"></span>
-                      <span>Prometheus</span>
+                      <span>Automated Labeling</span>
                     </li>
                   </ul>
                 </div>

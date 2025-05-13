@@ -424,17 +424,18 @@ export default function Home() {
                     <h3 className="text-xl font-semibold mb-2">Google</h3>
                     <p className="text-gray-600 mb-4">SWE Intern, Google Cloud</p>
                     <Link
-                      href="/experience/google"
+                      // href="/experience/google"
+                      href = "#projects"
                       className="text-sky-600 font-medium inline-flex items-center hover:text-sky-800 group"
                     >
-                      Learn More{" "}
+                      Incoming Intern...{" "}
                       <motion.span
                         className="ml-1"
                         initial={{ x: 0 }}
                         whileHover={{ x: 5 }}
                         transition={{ duration: 0.2 }}
                       >
-                        <ArrowRight className="h-4 w-4" />
+                        {/* <ArrowRight className="h-4 w-4" /> */}
                       </motion.span>
                     </Link>
                   </CardContent>
@@ -558,10 +559,10 @@ export default function Home() {
                     }}
                     transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY, repeatType: "reverse" }}
                   >
-                    <span className="text-pink-500 text-4xl font-bold">Webscribe</span>
+                    <span className="text-pink-500 text-4xl font-bold">WebScribe</span>
                   </motion.div>
                   <CardContent className="p-6">
-                    <h3 className="text-xl font-semibold mb-2">Webscribe</h3>
+                    <h3 className="text-xl font-semibold mb-2">WebScribe</h3>
                     <p className="text-gray-600 mb-4">Personal Project</p>
                     <Link
                       href="https://devpost.com/software/webscribe"

@@ -59,7 +59,7 @@ export default function FidelityExperiencePage() {
               <div className="flex flex-wrap gap-4">
                 <div className="flex items-center text-gray-600">
                   <Calendar className="h-5 w-5 mr-2" />
-                  <span>May 2023 - August 2023</span>
+                  <span>June 2023 - August 2023</span>
                 </div>
                 <div className="flex items-center text-gray-600">
                   <MapPin className="h-5 w-5 mr-2" />
@@ -122,21 +122,21 @@ export default function FidelityExperiencePage() {
             <ScrollFade>
               <div className="prose prose-lg max-w-none">
                 <p>
-                  During my internship at Fidelity Investments, I worked with the Data Architecture team to design and
-                  implement data pipelines for financial analytics systems. I collaborated with data engineers and
-                  scientists to improve the accuracy and efficiency of data processing for investment analysis.
+                  During my internship at Fidelity Investments, I worked with the Data Architecture team as a Full Stack
+                  Engineer Intern. My primary focus was developing a proprietary search engine for data engineers to
+                  access Fidelity's extensive database ecosystem, containing over 300,000 datasets.
                 </p>
 
                 <p>
-                  My primary project focused on creating visualization dashboards using Python and D3.js for internal
-                  stakeholders. These dashboards provided valuable insights into investment trends and market analysis,
-                  helping financial advisors make more informed decisions.
+                  I implemented advanced techniques including embedding methods and PageRank algorithms to significantly
+                  improve search result accuracy. Additionally, I developed optimized SQL queries for Snowflake
+                  database, which reduced query execution time by 40%.
                 </p>
 
                 <p>
-                  Working at Fidelity provided me with valuable experience in financial technology and data engineering.
-                  I gained insights into how large financial institutions manage and analyze vast amounts of data to
-                  drive investment strategies and business decisions.
+                  A key part of my contribution was implementing filter and query-suggestion features using Python,
+                  which enhanced the usability and efficiency of the search engine for data engineers across the
+                  organization.
                 </p>
 
                 <div className="my-8 bg-gray-50 p-6 rounded-xl border border-gray-100">
@@ -144,19 +144,24 @@ export default function FidelityExperiencePage() {
                   <ul className="space-y-2">
                     <li className="flex items-start">
                       <span className="text-green-500 mr-2">•</span>
-                      <span>Designed and implemented data pipelines for financial analytics systems</span>
+                      <span>
+                        Developed proprietary search engine for data engineers to access Fidelity Databases (300,000+
+                        datasets)
+                      </span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-green-500 mr-2">•</span>
-                      <span>Created visualization dashboards using Python and D3.js for internal stakeholders</span>
+                      <span>
+                        Implemented embedding techniques and PageRank algorithms, sharpening search result accuracy
+                      </span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-green-500 mr-2">•</span>
-                      <span>Collaborated with data scientists to improve machine learning model accuracy</span>
+                      <span>Developed SQL queries for Snowflake database, reducing query execution time by 40%</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-green-500 mr-2">•</span>
-                      <span>Documented architecture patterns and best practices for the team</span>
+                      <span>Implemented filter and query-suggestion features using Python</span>
                     </li>
                   </ul>
                 </div>
@@ -168,41 +173,44 @@ export default function FidelityExperiencePage() {
             <StaggerChildren className="space-y-6">
               <StaggerItem>
                 <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                  <h3 className="text-xl font-semibold mb-3 text-green-700">Data Pipeline Development</h3>
+                  <h3 className="text-xl font-semibold mb-3 text-green-700">Search Engine Development</h3>
                   <p className="text-gray-700">
-                    Designed and implemented data pipelines for processing financial data from various sources. Ensured
-                    data quality and consistency throughout the ETL process, and optimized pipelines for performance.
+                    Developed a proprietary search engine for data engineers to access Fidelity's extensive database
+                    ecosystem containing over 300,000 datasets. Designed the architecture to handle complex queries and
+                    large volumes of data efficiently.
                   </p>
                 </div>
               </StaggerItem>
 
               <StaggerItem>
                 <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                  <h3 className="text-xl font-semibold mb-3 text-green-700">Data Visualization</h3>
+                  <h3 className="text-xl font-semibold mb-3 text-green-700">Algorithm Implementation</h3>
                   <p className="text-gray-700">
-                    Created interactive dashboards and visualizations using Python and D3.js to present complex
-                    financial data in an accessible format. Worked with stakeholders to understand their needs and
-                    design effective visual representations.
+                    Implemented advanced embedding techniques and PageRank algorithms to significantly improve search
+                    result accuracy. Optimized the algorithms to handle the specific requirements of financial data and
+                    database metadata.
                   </p>
                 </div>
               </StaggerItem>
 
               <StaggerItem>
                 <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                  <h3 className="text-xl font-semibold mb-3 text-green-700">Machine Learning Support</h3>
+                  <h3 className="text-xl font-semibold mb-3 text-green-700">Database Optimization</h3>
                   <p className="text-gray-700">
-                    Collaborated with data scientists to prepare and process data for machine learning models. Helped
-                    improve model accuracy by implementing better data preprocessing techniques and feature engineering.
+                    Developed optimized SQL queries for Snowflake database, reducing query execution time by 40%.
+                    Implemented efficient indexing strategies and query patterns to improve overall database
+                    performance.
                   </p>
                 </div>
               </StaggerItem>
 
               <StaggerItem>
                 <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                  <h3 className="text-xl font-semibold mb-3 text-green-700">Documentation and Knowledge Sharing</h3>
+                  <h3 className="text-xl font-semibold mb-3 text-green-700">Feature Development</h3>
                   <p className="text-gray-700">
-                    Documented architecture patterns, data flows, and best practices for the team. Created comprehensive
-                    documentation for new data pipelines and visualization tools to facilitate knowledge sharing.
+                    Implemented filter and query-suggestion features using Python to enhance the usability and
+                    efficiency of the search engine. Created intuitive interfaces that improved the search experience
+                    for data engineers.
                   </p>
                 </div>
               </StaggerItem>
@@ -213,44 +221,44 @@ export default function FidelityExperiencePage() {
             <ScrollFade>
               <div className="space-y-8">
                 <div className="bg-gradient-to-r from-green-50 to-white p-6 rounded-xl border border-green-100">
-                  <h3 className="text-xl font-semibold mb-4 text-green-700">Data Pipeline Optimization</h3>
+                  <h3 className="text-xl font-semibold mb-4 text-green-700">Large-Scale Search Engine</h3>
                   <p className="text-gray-700 mb-4">
-                    Improved data processing efficiency by 20% through optimization of ETL pipelines and implementation
-                    of parallel processing techniques.
+                    Successfully developed a proprietary search engine capable of indexing and searching through over
+                    300,000 datasets, significantly improving data discovery for engineers across the organization.
                   </p>
                   <div className="bg-white p-4 rounded-lg border border-green-100">
                     <p className="text-sm text-gray-600 italic">
-                      "Mark's optimization work significantly improved our data processing capabilities, allowing us to
-                      handle larger datasets more efficiently." - Data Engineering Lead
+                      "The search engine Mark developed has transformed how our data engineers discover and access
+                      datasets, making them significantly more productive." - Data Architecture Lead
                     </p>
                   </div>
                 </div>
 
                 <div className="bg-gradient-to-r from-green-50 to-white p-6 rounded-xl border border-green-100">
-                  <h3 className="text-xl font-semibold mb-4 text-green-700">Visualization Dashboard</h3>
+                  <h3 className="text-xl font-semibold mb-4 text-green-700">Query Performance Optimization</h3>
                   <p className="text-gray-700 mb-4">
-                    Developed an interactive dashboard that provided valuable insights into investment trends, which was
-                    adopted by multiple teams across the organization.
+                    Optimized SQL queries for Snowflake database, achieving a 40% reduction in query execution time and
+                    improving overall system performance.
                   </p>
                   <div className="bg-white p-4 rounded-lg border border-green-100">
                     <p className="text-sm text-gray-600 italic">
-                      "The visualization dashboard Mark created has become an essential tool for our financial advisors,
-                      helping them make more informed investment decisions." - Product Manager
+                      "Mark's query optimization work has had a measurable impact on our database performance, allowing
+                      us to handle more complex queries with faster response times." - Database Administrator
                     </p>
                   </div>
                 </div>
 
                 <div className="bg-gradient-to-r from-green-50 to-white p-6 rounded-xl border border-green-100">
-                  <h3 className="text-xl font-semibold mb-4 text-green-700">Documentation Initiative</h3>
+                  <h3 className="text-xl font-semibold mb-4 text-green-700">Advanced Search Algorithms</h3>
                   <p className="text-gray-700 mb-4">
-                    Led an initiative to improve documentation of data architecture patterns, which was recognized by
-                    senior management and adopted as a standard practice.
+                    Implemented embedding techniques and PageRank algorithms that significantly improved search result
+                    accuracy, making it easier for users to find relevant datasets.
                   </p>
                   <div className="bg-white p-4 rounded-lg border border-green-100">
                     <p className="text-sm text-gray-600 italic">
-                      "Mark's documentation initiative has significantly improved our team's knowledge sharing and
-                      onboarding processes. His attention to detail and clear explanations have made complex systems
-                      more accessible." - Team Lead
+                      "The advanced algorithms Mark implemented have dramatically improved the relevance of search
+                      results, making our search engine a truly valuable tool for the organization." - Engineering
+                      Manager
                     </p>
                   </div>
                 </div>
@@ -278,7 +286,7 @@ export default function FidelityExperiencePage() {
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 rounded-full bg-green-500 mr-2"></span>
-                      <span>Java</span>
+                      <span>HTML/CSS</span>
                     </li>
                   </ul>
                 </div>
@@ -290,19 +298,19 @@ export default function FidelityExperiencePage() {
                   <ul className="space-y-2">
                     <li className="flex items-center">
                       <span className="w-2 h-2 rounded-full bg-green-500 mr-2"></span>
-                      <span>Apache Spark</span>
+                      <span>Snowflake</span>
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 rounded-full bg-green-500 mr-2"></span>
-                      <span>Hadoop</span>
+                      <span>SQL Optimization</span>
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 rounded-full bg-green-500 mr-2"></span>
-                      <span>PostgreSQL</span>
+                      <span>Database Indexing</span>
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 rounded-full bg-green-500 mr-2"></span>
-                      <span>AWS S3</span>
+                      <span>Data Modeling</span>
                     </li>
                   </ul>
                 </div>
@@ -310,23 +318,23 @@ export default function FidelityExperiencePage() {
 
               <StaggerItem>
                 <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                  <h3 className="text-xl font-semibold mb-3 text-green-700">Visualization Tools</h3>
+                  <h3 className="text-xl font-semibold mb-3 text-green-700">Search Technologies</h3>
                   <ul className="space-y-2">
                     <li className="flex items-center">
                       <span className="w-2 h-2 rounded-full bg-green-500 mr-2"></span>
-                      <span>D3.js</span>
+                      <span>Embedding Techniques</span>
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 rounded-full bg-green-500 mr-2"></span>
-                      <span>Matplotlib</span>
+                      <span>PageRank Algorithms</span>
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 rounded-full bg-green-500 mr-2"></span>
-                      <span>Plotly</span>
+                      <span>Query Suggestion</span>
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 rounded-full bg-green-500 mr-2"></span>
-                      <span>Tableau</span>
+                      <span>Search Filtering</span>
                     </li>
                   </ul>
                 </div>
@@ -334,23 +342,23 @@ export default function FidelityExperiencePage() {
 
               <StaggerItem>
                 <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                  <h3 className="text-xl font-semibold mb-3 text-green-700">Tools & Methodologies</h3>
+                  <h3 className="text-xl font-semibold mb-3 text-green-700">Tools & Frameworks</h3>
                   <ul className="space-y-2">
+                    <li className="flex items-center">
+                      <span className="w-2 h-2 rounded-full bg-green-500 mr-2"></span>
+                      <span>NumPy</span>
+                    </li>
+                    <li className="flex items-center">
+                      <span className="w-2 h-2 rounded-full bg-green-500 mr-2"></span>
+                      <span>Pandas</span>
+                    </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 rounded-full bg-green-500 mr-2"></span>
                       <span>Git/GitHub</span>
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 rounded-full bg-green-500 mr-2"></span>
-                      <span>Agile/Scrum</span>
-                    </li>
-                    <li className="flex items-center">
-                      <span className="w-2 h-2 rounded-full bg-green-500 mr-2"></span>
-                      <span>CI/CD</span>
-                    </li>
-                    <li className="flex items-center">
-                      <span className="w-2 h-2 rounded-full bg-green-500 mr-2"></span>
-                      <span>Data Modeling</span>
+                      <span>REST APIs</span>
                     </li>
                   </ul>
                 </div>
