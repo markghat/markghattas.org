@@ -29,7 +29,7 @@ import { Textarea } from "../components/ui/textarea"
 import { Button } from "../components/ui/button"
 
 export default function Home() {
-   const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState({
     name: "",
     email: "",
     subject: "",
@@ -124,13 +124,7 @@ export default function Home() {
                   whileHover={{ scale: 1.05 }}
                   transition={{ duration: 0.3 }}
                 >
-                  <Image
-                    src="/pfp.jpg"
-                    alt="Profile Image"
-                    width={250}
-                    height={250}
-                    className="rounded-xl"
-                  />
+                  <Image src="/pfp.jpg" alt="Profile Image" width={250} height={250} className="rounded-xl" />
                 </motion.div>
               </motion.div>
             </FadeIn>
@@ -138,8 +132,7 @@ export default function Home() {
         </div>
       </section>
 
-   
- {/* Skills Section */}
+      {/* Skills Section */}
       <section className="bg-gray-50 py-16 md:py-24" id="skills">
         <div className="container mx-auto px-4">
           <ScrollFade>
@@ -378,9 +371,7 @@ export default function Home() {
                   </motion.div>
                   <CardContent className="p-6">
                     <h3 className="text-xl font-semibold mb-2">Auxiom AI</h3>
-                    <p className="text-gray-600 mb-4">
-                     Co-founder / CTO
-                    </p>
+                    <p className="text-gray-600 mb-4">Co-founder / CTO</p>
                     <Link
                       href="https://auxiomai.com"
                       className="text-sky-600 font-medium inline-flex items-center hover:text-sky-800 group"
@@ -415,11 +406,9 @@ export default function Home() {
                   </motion.div>
                   <CardContent className="p-6">
                     <h3 className="text-xl font-semibold mb-2">Google</h3>
-                    <p className="text-gray-600 mb-4">
-                      SWE Intern, Google Cloud
-                    </p>
+                    <p className="text-gray-600 mb-4">SWE Intern, Google Cloud</p>
                     <Link
-                      href="#"
+                      href="/experience/google"
                       className="text-sky-600 font-medium inline-flex items-center hover:text-sky-800 group"
                     >
                       Learn More{" "}
@@ -452,11 +441,9 @@ export default function Home() {
                   </motion.div>
                   <CardContent className="p-6">
                     <h3 className="text-xl font-semibold mb-2">Yext</h3>
-                    <p className="text-gray-600 mb-4">
-                      SWE Intern, Reviews
-                    </p>
+                    <p className="text-gray-600 mb-4">SWE Intern, Reviews</p>
                     <Link
-                      href="#"
+                      href="/experience/yext"
                       className="text-sky-600 font-medium inline-flex items-center hover:text-sky-800 group"
                     >
                       Learn More{" "}
@@ -474,7 +461,7 @@ export default function Home() {
               </HoverCard>
             </ScrollFade>
 
-             {/* Project 4 */}
+            {/* Project 4 */}
             <ScrollFade delay={0.4}>
               <HoverCard>
                 <Card className="overflow-hidden border-0 shadow-md hover:shadow-xl transition-shadow h-full">
@@ -489,11 +476,9 @@ export default function Home() {
                   </motion.div>
                   <CardContent className="p-6">
                     <h3 className="text-xl font-semibold mb-2">Fidelity Investments</h3>
-                    <p className="text-gray-600 mb-4">
-                      SWE Intern, Data Architecture
-                    </p>
+                    <p className="text-gray-600 mb-4">SWE Intern, Data Architecture</p>
                     <Link
-                      href="#"
+                      href="/experience/fidelity"
                       className="text-sky-600 font-medium inline-flex items-center hover:text-sky-800 group"
                     >
                       Learn More{" "}
@@ -526,9 +511,7 @@ export default function Home() {
                   </motion.div>
                   <CardContent className="p-6">
                     <h3 className="text-xl font-semibold mb-2">Nurse Alert</h3>
-                    <p className="text-gray-600 mb-4">
-                      Personal Project
-                    </p>
+                    <p className="text-gray-600 mb-4">Personal Project</p>
                     <Link
                       href="https://devpost.com/software/nurse-alert-d4cuha"
                       className="text-sky-600 font-medium inline-flex items-center hover:text-sky-800 group"
@@ -563,9 +546,7 @@ export default function Home() {
                   </motion.div>
                   <CardContent className="p-6">
                     <h3 className="text-xl font-semibold mb-2">Webscribe</h3>
-                    <p className="text-gray-600 mb-4">
-                      Personal Project
-                    </p>
+                    <p className="text-gray-600 mb-4">Personal Project</p>
                     <Link
                       href="https://devpost.com/software/webscribe"
                       className="text-sky-600 font-medium inline-flex items-center hover:text-sky-800 group"
@@ -586,9 +567,9 @@ export default function Home() {
             </ScrollFade>
           </div>
         </div>
-        </section>
+      </section>
 
- {/* Education Section */}
+      {/* Education Section */}
       <section className="bg-gray-50 py-16 md:py-24" id="education">
         <div className="container mx-auto px-4">
           <ScrollFade>
@@ -612,12 +593,8 @@ export default function Home() {
                     </motion.div>
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold text-gray-800">
-                      B.S. in Computer Science & Statistics
-                    </h3>
-                    <h4 className="text-xl font-bold text-gray-800">
-                      Minor: Mathematics
-                    </h4>
+                    <h3 className="text-2xl font-bold text-gray-800">B.S. in Computer Science & Statistics</h3>
+                    <h4 className="text-xl font-bold text-gray-800">Minor: Mathematics</h4>
                     <p className="text-xl text-gray-700 mt-1">Duke University</p>
 
                     <div className="flex items-center mt-4 text-gray-600">
@@ -648,7 +625,7 @@ export default function Home() {
                               Machine Learning
                             </motion.li>
                           </StaggerItem>
-                              <StaggerItem>
+                          <StaggerItem>
                             <motion.li whileHover={{ x: 5 }} transition={{ duration: 0.2 }} className="text-gray-700">
                               Computer Architecture
                             </motion.li>

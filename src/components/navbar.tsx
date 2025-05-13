@@ -15,7 +15,7 @@ export default function Navbar() {
 
   const navLinks = [
     { name: "Home", href: "/" },
-    { name: "Education", href: "#about" },
+    { name: "Education", href: "#education" },
     { name: "Projects", href: "#projects" },
     { name: "Skills", href: "#skills" },
     { name: "Contact", href: "#contact" },
@@ -47,7 +47,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center">
             <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.2 }}>
-              <Image src="/logo.png" alt="Mark Ghattas Logo" width={80} height={80} />
+              <Image src="/logo.png" alt="Mark Ghattas Logo" width={40} height={40} />
             </motion.div>
           </Link>
 
