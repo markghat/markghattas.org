@@ -47,7 +47,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center">
             <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.2 }}>
-              <Image src="/logo.png" alt="Mark Ghattas Logo" width={40} height={40} />
+              <Image src="/logo.png" alt="Mark Ghattas Logo" width={80} height={80} />
             </motion.div>
           </Link>
 
