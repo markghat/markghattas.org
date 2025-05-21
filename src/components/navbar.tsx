@@ -65,7 +65,7 @@ export default function Navbar() {
               </motion.div>
             ))}
             <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.2 }}>
-              <Link href="https://drive.google.com/file/d/1raIO0dcXD4-z2RYVYwFPmd61s6wJibpZ/view?usp=drive_link" target="_blank">
+              <Link href="https://drive.google.com/file/d/1YWjyoO_UM8U6Vg6__9v8Ov_x6wpX6IK3/view?usp=sharing" target="_blank">
                 <Button variant="outline" size="sm" className="rounded-full">
                   Resume
                 </Button>
@@ -100,7 +100,7 @@ export default function Navbar() {
                       {link.name}
                     </Link>
                   ))}
-                  <Link href="https://drive.google.com/file/d/1raIO0dcXD4-z2RYVYwFPmd61s6wJibpZ/view?usp=drive_link" target="_blank" onClick={() => setIsOpen(false)}>
+                  <Link href="https://drive.google.com/file/d/1YWjyoO_UM8U6Vg6__9v8Ov_x6wpX6IK3/view?usp=sharing" target="_blank" onClick={() => setIsOpen(false)}>
                     <Button variant="outline" className="w-full justify-center rounded-full">
                       Resume
                     </Button>
