@@ -112,7 +112,7 @@ export default function Home() {
                 </Link>
               </StaggerItem>
               <StaggerItem>
-                <Link href="https://drive.google.com/file/d/1YWjyoO_UM8U6Vg6__9v8Ov_x6wpX6IK3/view?usp=sharing" target="_blank">
+                <Link href="https://drive.google.com/file/d/1qox2JU3CZyjwZ1bCDpofQUOgTrTGCg62/view?usp=sharing" target="_blank">
                   <AnimatedButton variant="outline" size="lg" className="gap-2 rounded-full">
                     <FileText className="h-5 w-5" />
                     <span>Resume</span>
@@ -929,7 +929,7 @@ export default function Home() {
                 </Link>
               </StaggerItem>
               <StaggerItem>
-                <Link href="https://drive.google.com/file/d/1YWjyoO_UM8U6Vg6__9v8Ov_x6wpX6IK3/view?usp=sharing" target="_blank">
+                <Link href="https://drive.google.com/file/d/1qox2JU3CZyjwZ1bCDpofQUOgTrTGCg62/view?usp=sharing" target="_blank">
                   <motion.div whileHover={{ y: -3, color: "#0ea5e9" }} transition={{ duration: 0.2 }}>
                     <FileText className="h-5 w-5 text-gray-600 transition-colors" />
                   </motion.div>
