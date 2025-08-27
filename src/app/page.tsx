@@ -204,7 +204,7 @@ export default function Home() {
                         animate={{ scale: [1, 1.5, 1] }}
                         transition={{ duration: 1.5, repeat: Number.POSITIVE_INFINITY, delay: 0.4 }}
                       ></motion.div>
-                      <span>TypeScript</span>
+                      <span>JavaScript</span>
                     </motion.div>
                   </StaggerItem>
                   <StaggerItem>
@@ -218,7 +218,7 @@ export default function Home() {
                         animate={{ scale: [1, 1.5, 1] }}
                         transition={{ duration: 1.5, repeat: Number.POSITIVE_INFINITY, delay: 0.6 }}
                       ></motion.div>
-                      <span>CSS/Tailwind</span>
+                      <span>CSS/HTML</span>
                     </motion.div>
                   </StaggerItem>
                 </StaggerChildren>
@@ -245,7 +245,7 @@ export default function Home() {
                         animate={{ scale: [1, 1.5, 1] }}
                         transition={{ duration: 1.5, repeat: Number.POSITIVE_INFINITY }}
                       ></motion.div>
-                      <span>Node.js</span>
+                      <span>Python</span>
                     </motion.div>
                   </StaggerItem>
                   <StaggerItem>
@@ -259,7 +259,7 @@ export default function Home() {
                         animate={{ scale: [1, 1.5, 1] }}
                         transition={{ duration: 1.5, repeat: Number.POSITIVE_INFINITY, delay: 0.2 }}
                       ></motion.div>
-                      <span>Express</span>
+                      <span>Java</span>
                     </motion.div>
                   </StaggerItem>
                   <StaggerItem>
@@ -273,7 +273,7 @@ export default function Home() {
                         animate={{ scale: [1, 1.5, 1] }}
                         transition={{ duration: 1.5, repeat: Number.POSITIVE_INFINITY, delay: 0.4 }}
                       ></motion.div>
-                      <span>Python</span>
+                      <span>SQL</span>
                     </motion.div>
                   </StaggerItem>
                   <StaggerItem>
@@ -314,7 +314,7 @@ export default function Home() {
                         animate={{ scale: [1, 1.5, 1] }}
                         transition={{ duration: 1.5, repeat: Number.POSITIVE_INFINITY }}
                       ></motion.div>
-                      <span>Git/GitHub</span>
+                      <span>Terraform</span>
                     </motion.div>
                   </StaggerItem>
                   <StaggerItem>
@@ -342,7 +342,7 @@ export default function Home() {
                         animate={{ scale: [1, 1.5, 1] }}
                         transition={{ duration: 1.5, repeat: Number.POSITIVE_INFINITY, delay: 0.4 }}
                       ></motion.div>
-                      <span>AWS/Cloud Services</span>
+                      <span>AWS/Google Cloud Services</span>
                     </motion.div>
                   </StaggerItem>
                   <StaggerItem>
@@ -425,18 +425,17 @@ export default function Home() {
                     <h3 className="text-xl font-semibold mb-2">Google</h3>
                     <p className="text-gray-600 mb-4">SWE Intern, Google Cloud</p>
                     <Link
-                      // href="/experience/google"
-                      href = "#projects"
+                      href="/experience/google"
                       className="text-sky-600 font-medium inline-flex items-center hover:text-sky-800 group"
                     >
-                      Incoming Intern...{" "}
+                      Learn More{" "}
                       <motion.span
                         className="ml-1"
                         initial={{ x: 0 }}
                         whileHover={{ x: 5 }}
                         transition={{ duration: 0.2 }}
                       >
-                        {/* <ArrowRight className="h-4 w-4" /> */}
+                        <ArrowRight className="h-4 w-4" />
                       </motion.span>
                     </Link>
                   </CardContent>
@@ -630,7 +629,7 @@ export default function Home() {
                         <ul className="list-disc space-y-2">
                           <StaggerItem>
                             <motion.li whileHover={{ x: 5 }} transition={{ duration: 0.2 }} className="text-gray-700">
-                              Advanced Algorithm Analysis
+                              Data Mining
                             </motion.li>
                           </StaggerItem>
                           <StaggerItem>
@@ -676,6 +675,11 @@ export default function Home() {
                           <StaggerItem>
                             <motion.li whileHover={{ x: 5 }} transition={{ duration: 0.2 }} className="text-gray-700">
                               Multivariable Calculus
+                            </motion.li>
+                          </StaggerItem>
+                          <StaggerItem>
+                            <motion.li whileHover={{ x: 5 }} transition={{ duration: 0.2 }} className="text-gray-700">
+                              Mathematics of Finance
                             </motion.li>
                           </StaggerItem>
                         </ul>

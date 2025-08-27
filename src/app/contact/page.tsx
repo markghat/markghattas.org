@@ -489,7 +489,7 @@ export default function Home() {
                         animate={{ scale: [1, 1.5, 1] }}
                         transition={{ duration: 1.5, repeat: Number.POSITIVE_INFINITY, delay: 0.2 }}
                       ></motion.div>
-                      <span>Express</span>
+                      <span>SQL</span>
                     </motion.div>
                   </StaggerItem>
                   <StaggerItem>
@@ -544,7 +544,7 @@ export default function Home() {
                         animate={{ scale: [1, 1.5, 1] }}
                         transition={{ duration: 1.5, repeat: Number.POSITIVE_INFINITY }}
                       ></motion.div>
-                      <span>Git/GitHub</span>
+                      <span>Terraform</span>
                     </motion.div>
                   </StaggerItem>
                   <StaggerItem>
@@ -572,7 +572,7 @@ export default function Home() {
                         animate={{ scale: [1, 1.5, 1] }}
                         transition={{ duration: 1.5, repeat: Number.POSITIVE_INFINITY, delay: 0.4 }}
                       ></motion.div>
-                      <span>AWS/Cloud Services</span>
+                      <span>AWS/Google Cloud Services</span>
                     </motion.div>
                   </StaggerItem>
                   <StaggerItem>
